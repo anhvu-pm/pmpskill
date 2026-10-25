@@ -1,146 +1,57 @@
-# PMP principles — Nguyên tắc suy luận tình huống
+# PMP principles — Nguyên tắc xử lý tình huống
 
-## Phạm vi và cách dùng
+## Mục đích và cách dùng
 
-Các nguyên tắc dưới đây là heuristic coaching của skill, không phải danh sách principles chính thức của PMI/PMBOK hay bản chép enablers ECO. Dùng cùng dữ kiện đề bài để phân biệt các lựa chọn gần nhau; không dùng làm công thức chọn đáp án.
+Giúp học viên hình thành sense xử lý các dạng tình huống PMP: nhận diện vấn đề, nhớ nguyên tắc liên quan, áp dụng vào mock exams và điều chỉnh hiểu biết qua review câu hỏi.
 
-Chọn nguyên tắc giúp giải quyết đúng điểm tranh chấp, kiểm tra điều kiện và ngoại lệ. Không cần nêu ID trong câu trả lời học viên. Câu hỏi kiểm tra kỹ thuật/định nghĩa cụ thể cần kiến thức tương ứng, không chỉ mindset chung. Không kỳ vọng một nguyên tắc giải quyết được mọi câu hỏi.
+- Chọn nhóm tình huống gần nhất, đối chiếu dữ kiện và so sánh các phương án. Với FIRST/NEXT, bắt đầu từ trạng thái đề mô tả; không phân tích lại việc đã hoàn tất hoặc bỏ qua bước cần thiết chưa thực hiện.
+- Các bullet là nguyên tắc coaching có thể dùng lại, không phải danh sách principles chính thức của PMI hoặc công thức chọn đáp án. Câu hỏi kỹ thuật/định nghĩa vẫn cần kiến thức tương ứng.
+- Các nhóm dưới đây phục vụ việc học, không thay thế Task chính thức. Tra Domain → Task trong [pmp-exam-content-outline.md](pmp-exam-content-outline.md). Một câu có thể liên quan nhiều nhóm; chọn nguyên tắc giải quyết đúng điểm tranh chấp.
+- Giữ Risk/Issue, Change và Continuous Improvement trong BE theo bản ECO 2026 đi kèm; value-based delivery nằm trong PRC. Nhóm tình huống có thể liên hệ chéo giữa các domain.
 
-ID PMP-Pxx độc lập với Domain/Task. Tra mapping ECO 2026 trong [pmp-exam-content-outline.md](pmp-exam-content-outline.md); mỗi nguyên tắc có thể áp dụng cho nhiều Tasks.
+## People — PPL
 
-## Mục lục
+| Nhóm tình huống | Nguyên tắc xử lý |
+|---|---|
+| **Shared vision & alignment** — Hiểu khác nhau về mục tiêu, ưu tiên cục bộ | • Khi các bên theo đuổi ưu tiên khác nhau, quay lại mục tiêu chung, outcomes và tiêu chí thành công đã thống nhất để so sánh phương án.<br>• Nếu hiểu sai mục tiêu, tìm điểm hiểu khác và làm rõ cùng các bên; xác nhận lại understanding thay vì chỉ gửi lại vision.<br>• Nếu mục tiêu đã rõ nhưng thiếu nguồn lực hoặc có xung đột lợi ích, giải quyết đúng trở ngại đó; nhắc lại vision chưa đủ. |
+| **Conflict & collaboration** — Xung đột giữa thành viên hoặc các bên | • Khi chưa rõ nguyên nhân, trao đổi với các bên để hiểu góc nhìn, nguồn xung đột và mức ảnh hưởng trước khi chọn cách xử lý.<br>• Khi còn khả năng hợp tác, giúp các bên tìm common ground và giải pháp cùng chấp nhận; tập trung vào vấn đề, tránh quy lỗi hoặc áp đặt ngay.<br>• Dùng emotional intelligence để giảm căng thẳng, rồi xử lý nguyên nhân thực tế như workload, dependency hoặc vai trò không rõ.<br>• Xung đột vượt thẩm quyền hoặc bế tắc cần hỗ trợ theo escalation path; vi phạm nghiêm trọng về safety/ethics cần xử lý theo quy định, không chờ hòa giải. |
+| **Team performance & development** — Làm việc chưa đạt, thiếu kỹ năng, mất động lực | • Khi một thành viên chưa đạt kỳ vọng, trao đổi trực tiếp, riêng tư khi phù hợp; kiểm tra kỳ vọng, kỹ năng, capacity, công cụ và động lực trước khi chọn giải pháp.<br>• Thiếu kỹ năng thì cân nhắc coaching, mentoring, pairing hoặc training nội bộ; dùng hỗ trợ bên ngoài khi năng lực nội bộ hoặc thời gian không đáp ứng.<br>• Training không giải quyết được thiếu thời gian, quá tải hoặc mục tiêu mâu thuẫn; điều chỉnh công việc và nguồn lực theo đúng nguyên nhân.<br>• Tạo động lực bằng mục tiêu có ý nghĩa, sự tin tưởng, ghi nhận và quyền tự chủ phù hợp; không mặc định tăng tiền thưởng là giải pháp.<br>• Hỗ trợ thành viên cải thiện và theo dõi kết quả; giữ accountability rõ ràng, không dùng tinh thần “no blame” để bỏ qua vi phạm lặp lại. |
+| **Leadership & empowerment** — Team cần tự chủ hoặc hỗ trợ | • Làm rõ mục tiêu, roles, decision rights và accountability; để team quyết cách thực hiện trong phạm vi được giao.<br>• PM giúp gỡ blocker và tạo điều kiện làm việc; không làm thay hoặc kiểm soát từng bước khi team có khả năng tự quản.<br>• Chọn cách lãnh đạo theo năng lực, mức tự chủ và tính khẩn cấp; coaching/collaboration hữu ích nhưng tình huống có thể cần chỉ đạo rõ.<br>• Trao quyền vẫn cần hỗ trợ, phản hồi và kiểm tra kết quả; không đồng nghĩa bỏ mặc team. |
+| **Stakeholder engagement & expectations** — Stakeholder mới, phản đối, thiếu hỗ trợ hoặc kỳ vọng lệch | • Khi có stakeholder mới, nhận diện và phân tích nhu cầu, ảnh hưởng, kỳ vọng; cập nhật stakeholder register và cách engagement phù hợp.<br>• Khi stakeholder thiếu hỗ trợ, tìm nguyên nhân: chưa hiểu, chưa thấy giá trị, bị ảnh hưởng hoặc có lợi ích mâu thuẫn; chọn engagement tương ứng.<br>• Training phù hợp khi vấn đề là thiếu hiểu biết; không dùng training để thay việc xử lý tác động hoặc xung đột lợi ích.<br>• Khi chưa thống nhất kỳ vọng, làm rõ nhu cầu và trade-offs để đạt agreement; khi đã thống nhất, theo dõi satisfaction và xử lý kỳ vọng thay đổi.<br>• Không hứa đáp ứng mọi yêu cầu ngoài scope, constraints hoặc thẩm quyền để lấy sự đồng thuận. |
+| **Communication** — Thiếu thông tin, quá tải thông tin, hiểu nhầm | • Khi stakeholder phàn nàn về thông tin, xác nhận họ cần gì, khi nào và qua kênh nào; rà soát communication plan và engagement trước khi chỉ tăng email/meeting.<br>• Điều chỉnh nội dung, độ chi tiết, tần suất và kênh theo người nhận; xác nhận understanding và tạo feedback loop khi cần.<br>• Báo cáo đúng status, tác động và hướng xử lý, kể cả bad news; tuân thủ confidentiality và quyền truy cập.<br>• Việc đã gửi thông tin chưa chứng minh người nhận hiểu hoặc đồng ý; kiểm tra kết quả giao tiếp. |
+| **Knowledge transfer** — Thành viên rời team, phụ thuộc chuyên gia, bàn giao kiến thức | • Xác định knowledge quan trọng và người cần tiếp nhận; bắt đầu chuyển giao sớm thay vì chờ key member rời đi hoặc dự án kết thúc.<br>• Kết hợp tài liệu với walkthrough, pairing, shadowing hoặc thực hành để người nhận sử dụng được kiến thức.<br>• Dùng cross-training và shared ownership để giảm phụ thuộc cá nhân, ưu tiên kiến thức có rủi ro gián đoạn cao.<br>• Kiểm tra readiness của người nhận; gửi tài liệu hoặc hoàn thành một buổi handoff chưa đủ chứng minh chuyển giao thành công. |
 
-- A. Trạng thái, trình tự và bằng chứng — P01–P04
-- B. Con người và phối hợp — P05–P09
-- C. Thẩm quyền, thay đổi và ràng buộc — P10–P13
-- D. Value, delivery và learning — P14–P18
-- E. Kiểm chứng kết quả và chuyển giao — P19–P22
+## Process — PRC
 
-## A. Trạng thái, trình tự và bằng chứng
+| Nhóm tình huống | Nguyên tắc xử lý |
+|---|---|
+| **Integrated planning & delivery approach** — Chọn cách làm, kế hoạch thiếu đồng bộ | • Chọn predictive, adaptive hoặc hybrid theo mức uncertainty, nhu cầu feedback, dependencies và governance; không quyết định chỉ từ một keyword.<br>• Tích hợp scope, schedule, resources, finance, quality và risk; đánh giá tác động qua lại trước khi cam kết điều chỉnh.<br>• Cập nhật kế hoạch khi có thông tin đáng tin cậy; phân tích tương xứng với tác động, tránh biến điều chỉnh nhỏ thành thủ tục quá mức. |
+| **Requirements & scope** — Yêu cầu mơ hồ, thiếu chức năng, phát sinh phạm vi | • Làm rõ nhu cầu và acceptance criteria với đúng stakeholder trước khi chốt giải pháp hoặc triển khai yêu cầu chưa rõ.<br>• Đạt agreement phù hợp rồi phân rã scope bằng WBS hoặc backlog theo cách làm của dự án.<br>• Yêu cầu mới cần xem xét value, impact và thẩm quyền; không tự đưa vào thực hiện chỉ vì khách hàng hoặc sponsor đề nghị.<br>• Khi tranh chấp “thiếu chức năng”, đối chiếu requirements, scope và acceptance đã thống nhất để phân biệt thiếu sót với yêu cầu mới; xử lý change theo nhóm BE bên dưới. |
+| **Schedule & resources** — Chậm tiến độ, quá tải, thiếu người hoặc kỹ năng | • Khi chậm tiến độ, xác định nguyên nhân, dependency và công việc ảnh hưởng mốc chính/critical path trước khi chọn cách phục hồi.<br>• Forecast theo capacity, historical data và dependencies thực tế; không dùng velocity làm quota ép team.<br>• Phân biệt thiếu competency, thiếu capacity và thiếu availability trước khi training, bổ sung hoặc điều chuyển người.<br>• Cân nhắc reprioritization, phối hợp nguồn lực và tối ưu cách làm; thêm người hoặc overtime không tự bảo đảm tăng tốc.<br>• Fast tracking cần xem dependency/risk; crashing cần xem khả năng rút ngắn và chi phí trên critical path. Resource leveling có thể kéo dài schedule, không mặc định là cách chữa chậm tiến độ. |
+| **Finance & reserves** — Vượt ngân sách, dự báo thiếu tiền | • Phân tích nguyên nhân cost variance và forecast chi phí còn lại trước khi đề xuất cắt scope, bổ sung ngân sách hoặc dùng reserve.<br>• Đánh giá cost cùng value, risk và quality; phương án rẻ nhất chưa chắc đáp ứng mục tiêu.<br>• Dùng contingency và management reserves đúng mục đích, điều kiện và thẩm quyền; không coi reserve là tiền bù cho mọi overrun.<br>• Khi vượt ngưỡng hoặc cần quyết định tài trợ, trình bày impact, forecast và options cho người có thẩm quyền. |
+| **Quality** — Defects, rework, chất lượng không đạt | • Thống nhất quality/acceptance criteria và xây prevention, kiểm tra sớm vào cách làm; không chỉ kiểm tra ở cuối.<br>• Với lỗi đang gây hại, correction/containment cần thiết có thể đi trước phân tích sâu; sau đó xử lý root cause để giảm tái diễn.<br>• Dùng dữ liệu chọn cải tiến: Pareto giúp ưu tiên nhóm vấn đề phổ biến, nhưng vẫn phải xét severity của lỗi ít gặp.<br>• Cân nhắc cost of quality; prevention không thay thế testing/inspection và áp lực tiến độ không tự cho phép bỏ tiêu chí bắt buộc. |
+| **Value-based delivery & uncertainty** — Chọn ưu tiên, giao sớm, công nghệ chưa rõ | • Làm rõ outcomes, benefits, owner và cách đo cùng stakeholders; ưu tiên công việc theo giá trị và feedback, không chỉ lượng công việc hoàn thành.<br>• Cân nhắc incremental delivery/MVP để học và tạo value sớm khi khả thi; vẫn bảo đảm quality và compliance cần thiết.<br>• Khi chưa rõ feasibility hoặc công nghệ, dùng spike/prototype/thử nghiệm time-boxed với mục tiêu học và tiêu chí quyết định rõ.<br>• Đánh giá value xuyên dự án; nếu lợi ích dự kiến không còn phù hợp, đưa bằng chứng và phương án tới người có thẩm quyền thay vì tiếp tục chỉ vì đã đầu tư.<br>• Sau delivery hoặc thử nghiệm, kiểm tra kết quả thực tế rồi điều chỉnh; story points hoặc số task hoàn thành chưa chứng minh value. |
+| **Procurement & contracts** — Chọn vendor, thương lượng, nhà cung cấp không đáp ứng | • Chọn procurement strategy và contract type theo độ rõ scope, uncertainty, phân bổ risk và năng lực thị trường; không mặc định fixed price luôn tốt nhất.<br>• Khi seller không đáp ứng, đối chiếu nghĩa vụ, tiêu chí và dữ kiện thực hiện; phối hợp tìm nguyên nhân và hướng khắc phục theo hợp đồng.<br>• Đàm phán theo mục tiêu và giới hạn đã xác định, tìm agreement khả thi cho các bên; không chấp nhận mọi nhượng bộ chỉ để đạt win-win.<br>• Thay đổi terms, price, scope hoặc obligations phải theo contract change mechanism và thẩm quyền tương ứng. |
+| **Project status & artifacts** — Status không rõ, dữ liệu lệch, dùng sai phiên bản | • Chọn metrics và dữ liệu trả lời đúng quyết định cần đưa ra; kiểm tra chất lượng dữ liệu, kể cả output do AI tạo.<br>• Đối chiếu actuals với kế hoạch/tiêu chí phù hợp để xác định variance, impact và forecast; không suy diễn chỉ từ một con số.<br>• Giữ artifacts có owner, version, quyền truy cập và cập nhật phù hợp; nếu dùng sai phiên bản, xử lý cả deliverable bị ảnh hưởng và cơ chế tránh lặp lại.<br>• Cập nhật log/report hỗ trợ quyết định và traceability, nhưng không thay thế hành động giải quyết vấn đề. |
+| **Acceptance, transition & closure** — Hoàn tất, bàn giao hoặc dừng dự án | • Phân biệt technical completion, acceptance và project closure; đối chiếu tiêu chí và approval cần thiết trước khi tuyên bố hoàn tất.<br>• Acceptance ở từng iteration không tự chứng minh mọi điều kiện đóng toàn bộ dự án đã được đáp ứng.<br>• Kiểm tra operations/đơn vị nhận có thể tiếp quản: ownership, knowledge, support và artifacts cần thiết.<br>• Hoàn tất procurement, financials, resources và lessons learned theo closure criteria; tránh bổ sung thủ tục không phục vụ yêu cầu đã thống nhất.<br>• Dự án bị terminate vẫn cần controlled closure; thứ tự dừng chi phí, thông báo và hoàn tất nghĩa vụ tùy urgency, contract và governance. |
 
-### PMP-P01 — Bắt đầu từ trạng thái hiện tại
+## Business Environment — BE
 
-- **Áp dụng:** Với FIRST/NEXT, xác định việc đã hoàn tất, đang diễn ra và chưa làm; chọn bước cần thiết tiếp theo từ trạng thái đề mô tả.
-- **Giới hạn:** Không quay lại identify/analyze chỉ vì đó là bước đầu quy trình. Nếu đã phân tích, phê duyệt hoặc có response phù hợp, xem xét thực hiện bước tiếp theo.
-- **Ví dụ:** Risk đã xảy ra và có response được thống nhất: xem xét kích hoạt response, không mặc định lập lại risk plan trước.
+| Nhóm tình huống | Nguyên tắc xử lý |
+|---|---|
+| **Governance & escalation** — Không rõ ai quyết, vượt thẩm quyền, bế tắc | • Xác định decision rights, approval authority, escalation path và thresholds trước khi cam kết thay đổi vượt quyền.<br>• Chủ động phối hợp trong thẩm quyền; escalate khi vượt ngưỡng, cần hỗ trợ/quyết định cấp trên hoặc các bên không giải quyết được.<br>• Khi escalate, cung cấp dữ kiện, tác động, hành động đã làm và options; không chỉ chuyển vấn đề lên trên.<br>• Mandatory reporting, ethics hoặc safety có thể yêu cầu báo ngay; không áp dụng máy móc “luôn tự xử lý trước”. |
+| **Compliance, ethics & safety** — Yêu cầu bắt buộc hoặc vi phạm | • Xác định yêu cầu bắt buộc và tác động noncompliance; phối hợp SME/authority để chọn hành động và tích hợp vào kế hoạch.<br>• Không tự đánh đổi compliance để giữ deadline, budget hoặc làm hài lòng stakeholder; phân biệt nghĩa vụ bắt buộc với preference có thể thương lượng.<br>• Khi có vi phạm nghiêm trọng, bảo vệ con người/tổ chức và thực hiện reporting/escalation theo quy định.<br>• PM phối hợp bảo đảm việc thực hiện và theo dõi; không giao hết trách nhiệm cho Legal, cũng không tự dừng toàn dự án khi chưa có cơ sở. |
+| **Project change control** — Change request, thay baseline, đổi ưu tiên | • Làm rõ request, đánh giá impact và dùng cơ chế quyết định phù hợp trước khi triển khai thay đổi cần phê duyệt; cập nhật và truyền đạt quyết định.<br>• Controlled baseline changes theo formal change control của dự án; backlog refinement/reordering có thể nằm trong thẩm quyền đã giao.<br>• Trong Scrum, Product Owner chịu trách nhiệm quản lý Product Backlog; không suy mọi thay đổi dự án hoặc hợp đồng đều chỉ cần PO quyết định.<br>• Sponsor/customer yêu cầu gấp không tự thay thế approval cần thiết; khi change đã được phê duyệt và đủ điều kiện, triển khai thay vì lặp lại toàn bộ phân tích. |
+| **Risk & uncertainty** — Nguy cơ chưa xảy ra, chọn response | • Nhận diện uncertainty và tác động lên objectives; đánh giá mức ưu tiên, owner và response phù hợp, rồi theo dõi thay đổi.<br>• Phân tích đủ để chọn response; không coi mọi risk đều cần tránh hoặc loại bỏ bằng mọi giá.<br>• Residual risk là phần còn lại sau response; secondary risk phát sinh do response. Phân biệt theo quan hệ nguyên nhân, không chỉ thời điểm xuất hiện.<br>• Chọn qualitative/quantitative analysis theo quyết định cần hỗ trợ và dữ liệu; có phần trăm chưa đủ để kết luận là quantitative analysis.<br>• Khi trigger xảy ra, xem xét kích hoạt agreed response và cập nhật thông tin; không lập lại risk plan theo phản xạ. |
+| **Issues & impediments** — Vấn đề đã xảy ra, blocker cản công việc | • Phân biệt issue hiện hữu với uncertainty còn có thể xảy ra; risk đã xảy ra có thể cần được quản lý như issue và vẫn còn các risk liên quan.<br>• Đánh giá impact và ưu tiên blocker; phối hợp owner/team chọn intervention trong thẩm quyền.<br>• Nếu tác động đang gây hại tức thời, thực hiện containment/response phù hợp trước khi phân tích sâu; không trì hoãn hành động đã rõ.<br>• Kiểm tra blocker thực sự được gỡ và công việc tiếp tục được; cập nhật issue log không đồng nghĩa giải quyết xong.<br>• Khi cần quyết định hoặc hỗ trợ vượt quyền, dùng escalation path với impact và options rõ ràng. |
+| **Organizational & external change** — Thay đổi tổ chức, thị trường, công nghệ hoặc quy định | • Theo dõi tín hiệu thay đổi đáng tin cậy; đánh giá impact lên scope/backlog, schedule, cost, risk, value và compliance trước khi đề xuất phản ứng.<br>• Không chờ thay đổi bên ngoài thành issue mới xem xét; cũng không đổi plan chỉ vì một tín hiệu chưa được đánh giá.<br>• Với organizational change, xác định nhóm bị tác động, culture, readiness và nhu cầu adoption; phối hợp engagement, training và transition phù hợp.<br>• Communication/training chưa đủ khi operating model, incentives hoặc decision rights còn cản trở việc tiếp nhận.<br>• Khi thay đổi làm dự án lệch mục tiêu kinh doanh, trình bày tác động và options cho người có thẩm quyền quyết định hướng đi. |
+| **Continuous improvement** — Vấn đề lặp lại, retrospective, lessons learned | • Sau correction/containment cần thiết, tìm root cause và chọn cải tiến ngăn tái diễn; tránh chỉ sửa triệu chứng.<br>• Thu thập, chia sẻ và áp dụng lessons learned xuyên dự án, không đợi closure.<br>• Khi performance giảm hoặc cách làm chưa hiệu quả, cùng team dùng feedback/retrospective để chọn hành động cải tiến cụ thể.<br>• Xác định outcome/metric, thực hiện cải tiến và kiểm tra kết quả cùng tác động phụ; hoàn thành action item chưa chứng minh hiệu quả.<br>• Cập nhật OPA, templates hoặc checklists khi learning đáng tin cậy và có thể dùng lại; không biến một trường hợp đơn lẻ thành quy tắc tuyệt đối. |
 
-### PMP-P02 — Hiểu đủ vấn đề trước khi chọn giải pháp
+## Bổ sung nguyên tắc khi review mock exams
 
-- **Áp dụng:** Khi nguyên nhân, impact hoặc nhu cầu chưa rõ, thu thập đúng thông tin từ các bên liên quan; tránh tuyển người, training, đổi plan hoặc escalate theo phản xạ.
-- **Giới hạn:** Không điều tra vô hạn khi dữ kiện đã đủ. Nếu có nguy cơ thiệt hại tức thời, ưu tiên containment theo thẩm quyền/quy trình rồi phân tích sâu; không trì hoãn response đã quy định.
-
-### PMP-P03 — Phân biệt uncertainty, issue và response
-
-- **Áp dụng:** Xét sự kiện đã xảy ra hay chưa. Risk là uncertainty có thể ảnh hưởng mục tiêu; issue là vấn đề hiện hữu cần xử lý. Risk đã có trong register vẫn có thể thành issue khi xảy ra.
-- **Giới hạn:** Sự kiện xảy ra không loại bỏ mọi risk tiếp theo. Không phân loại chỉ theo từ “will”, “may” hay việc đề nhắc risk register.
-- **Phân biệt:** Residual risk còn lại sau response; secondary risk phát sinh do response. Không coi hai loại này là đồng nghĩa.
-
-### PMP-P04 — Dùng bằng chứng đúng với quyết định
-
-- **Áp dụng:** Chọn dữ liệu, tiêu chí, historical information hoặc expert input thực sự giúp phân biệt phương án. Kiểm tra chất lượng và ý nghĩa dữ liệu trước khi dùng kết quả phân tích, kể cả output do AI tạo.
-- **Giới hạn:** Không kết luận quantitative chỉ vì có phần trăm. Tool/AI output không tự là phê duyệt hay bằng chứng đủ. Không bịa thêm quy định AI vào đề.
-
-## B. Con người và phối hợp
-
-### PMP-P05 — Giải quyết cùng người liên quan
-
-- **Áp dụng:** Với conflict, disagreement hoặc dissatisfaction, trao đổi để hiểu góc nhìn, làm rõ mục tiêu và tìm giải pháp hợp tác/common ground.
-- **Giới hạn:** Collaborative/win-win không luôn khả thi hay luôn là bước đầu. Khẩn cấp, vi phạm nghiêm trọng, policy hoặc giới hạn authority có thể yêu cầu cách xử lý khác.
-
-### PMP-P06 — Trao quyền trong ranh giới rõ ràng
-
-- **Áp dụng:** Làm rõ mục tiêu, decision rights và accountability; để team quyết cách làm trong phạm vi của họ; PM hỗ trợ gỡ blockers thay vì micromanage.
-- **Giới hạn:** Empowerment không phải bỏ mặc team hoặc chuyển trách nhiệm của PM cho team. Leadership style cần phù hợp năng lực, mức tự chủ và context; servant leadership không loại bỏ việc chỉ đạo khi cần.
-
-### PMP-P07 — Tìm đúng nguyên nhân performance gap
-
-- **Áp dụng:** Trao đổi riêng khi phù hợp; kiểm tra kỳ vọng, năng lực, capacity, tools và động lực trước khi chọn coaching/training, điều chỉnh công việc hoặc bổ sung resources; theo dõi kết quả.
-- **Giới hạn:** Training giải quyết competency gap, không tự giải quyết thiếu capacity hoặc mục tiêu mâu thuẫn. Không mặc định tuyển thêm hay kỷ luật; cũng không cấm các biện pháp này khi dữ kiện/policy cho thấy cần.
-
-### PMP-P08 — Giao tiếp phải tạo được hiểu biết và phản hồi
-
-- **Áp dụng:** Tailor nội dung, kênh, thời điểm và độ chi tiết theo stakeholder; xác nhận understanding/agreement khi cần. Minh bạch status/corrective actions; dùng feedback để điều chỉnh.
-- **Giới hạn:** Gửi thêm email hoặc tăng meeting không tự giải quyết misunderstanding hay thiếu trust. Transparency vẫn phải tuân thủ confidentiality/access rights; báo cáo governance vẫn cần thực hiện.
-
-### PMP-P09 — Phân biệt thống nhất kỳ vọng với duy trì kỳ vọng
-
-- **Áp dụng:** Khi chưa thống nhất, làm rõ nhu cầu/trade-offs để đạt agreement. Khi đã thống nhất, theo dõi outcomes/satisfaction và xử lý thay đổi kỳ vọng. Hiểu resistance trước khi chọn engagement, training hoặc intervention.
-- **Giới hạn:** Không coi mọi phản đối là thiếu hiểu biết. Có thể là xung đột lợi ích, requirement chưa đáp ứng hoặc thay đổi value; không hứa đáp ứng mọi kỳ vọng ngoài constraints.
-
-## C. Thẩm quyền, thay đổi và ràng buộc
-
-### PMP-P10 — Escalate theo authority và threshold
-
-- **Áp dụng:** Phối hợp trực tiếp với owner/các bên nếu họ có khả năng giải quyết; escalate theo path/threshold khi vượt authority, vượt ngưỡng hoặc các bên không đạt giải pháp.
-- **Giới hạn:** Không hiểu thành “luôn tự giải quyết trước”. Mandatory reporting, safety, ethics hoặc threshold đã bị vượt có thể yêu cầu báo ngay. Tìm specialist không đồng nghĩa chuyển trách nhiệm cho cấp trên.
-
-### PMP-P11 — Phân biệt đánh giá change và triển khai change
-
-- **Áp dụng:** Làm rõ request, đánh giá impact, đi theo cơ chế quyết định phù hợp trước khi đổi controlled baseline, contract hoặc cam kết; cập nhật artifacts sau quyết định.
-- **Giới hạn:** Không phải mọi change cần CCB/formal change request. Backlog refinement/reordering và thay đổi trong quyền được giao theo governance thực tế. Urgency không tự cấp quyền approve cho PM.
-- **Vai trò:** Trong Scrum, Product Owner accountable cho Product Backlog management; Developers quyết cách thực hiện công việc. Không suy mọi project change đều thuộc PO, hoặc mọi agile team đều dùng Scrum.
-
-### PMP-P12 — Không tùy ý đánh đổi ràng buộc bắt buộc
-
-- **Áp dụng:** Xác định requirements bắt buộc, mức noncompliance và impact; phối hợp SME/authority để chọn action, tích hợp vào plan/backlog. Safety, security, regulatory và sustainability requirements được xử lý theo dữ kiện thực tế.
-- **Giới hạn:** Phân biệt yêu cầu bắt buộc với preference có thể thương lượng. Không giao hết compliance cho Legal; không tự dừng toàn dự án nếu chưa có cơ sở.
-
-### PMP-P13 — Đánh giá tác động toàn hệ thống
-
-- **Áp dụng:** Trước khi đổi scope/resources/schedule/cost/contract, xét dependencies và trade-offs về risk, quality, value và dự án/operations liên quan. Với external/organizational change, đánh giá impact rồi điều chỉnh phương án.
-- **Giới hạn:** Không chọn chỉ vì tốt cho một team/chỉ số. Mức phân tích cần tương xứng impact/urgency; không biến điều chỉnh nhỏ trong thẩm quyền thành thủ tục quá mức.
-
-## D. Value, delivery và learning
-
-### PMP-P14 — Ưu tiên outcomes và value kiểm chứng được
-
-- **Áp dụng:** Làm rõ value/benefit, owner và cách đo; chọn delivery option đáp ứng mục tiêu và chứng minh giá trị. Cân nhắc incremental delivery/feedback sớm khi khả thi.
-- **Giới hạn:** Activity completed, effort/story points không đồng nghĩa value. MVP phải đủ kiểm chứng giả thuyết/value cần thiết, không cho phép bỏ quality/compliance. Không ép incremental delivery khi constraints không cho phép.
-
-### PMP-P15 — Tailor cách làm theo context
-
-- **Áp dụng:** Chọn predictive, adaptive/agile hoặc hybrid theo uncertainty, feedback availability, delivery needs, dependencies và governance; dùng WBS/backlog, planning/reporting phù hợp.
-- **Giới hạn:** Một từ “change”, “iteration” hoặc “regulation” không quyết định approach. Agile vẫn cần planning/governance; predictive vẫn có feedback/change. Không áp tool chỉ vì quen dùng.
-
-### PMP-P16 — Dùng thử nghiệm có giới hạn để giảm uncertainty
-
-- **Áp dụng:** Khi chưa rõ feasibility/technology/solution, cân nhắc spike, prototype hoặc thử nghiệm time-boxed với learning objective và tiêu chí ra quyết định.
-- **Giới hạn:** Thử nghiệm không thay phê duyệt bắt buộc, không cho phép tự triển khai rủi ro vào production; dừng thử khi đã đủ thông tin để quyết định.
-
-### PMP-P17 — Forecast theo năng lực và dependencies thực tế
-
-- **Áp dụng:** Dùng dữ liệu phù hợp approach, capacity, dependencies và historical performance; xem resource optimization/reprioritization trước khi cam kết timeline mới.
-- **Giới hạn:** Velocity không phải quota/cam kết tối thiểu. Thêm người/overtime không tự tăng tốc; fast tracking/crashing cần xem critical path, feasibility, risk/cost. Dùng reserves theo authority và mục đích quy định.
-
-### PMP-P18 — Xây chất lượng vào cách làm và sửa nguyên nhân
-
-- **Áp dụng:** Làm rõ quality/acceptance criteria; ưu tiên prevention, kiểm tra sớm và root cause thay vì chỉ rework. Dùng dữ liệu ưu tiên cải tiến, cân nhắc cost of quality.
-- **Giới hạn:** Prevention không loại bỏ inspection/testing. Lỗi hiện hữu có thể cần correction/containment trước. Pareto giúp ưu tiên nhóm gây nhiều vấn đề, không cho phép bỏ lỗi ít gặp nhưng hậu quả nghiêm trọng.
-
-## E. Kiểm chứng kết quả và chuyển giao
-
-### PMP-P19 — Theo dõi outcome sau hành động
-
-- **Áp dụng:** Sau training, response, blocker removal hoặc engagement action, kiểm tra tác động thực tế/tác động phụ; điều chỉnh nếu chưa đạt mục tiêu.
-- **Giới hạn:** “Đã gửi”, “đã tổ chức”, “đã cập nhật log” chưa chứng minh vấn đề được giải quyết. Không thêm vòng kiểm tra trước hành động khẩn cấp chỉ để đủ quy trình.
-
-### PMP-P20 — Artifacts hỗ trợ quyết định và traceability
-
-- **Áp dụng:** Quản lý version, owner, access, update cadence; cập nhật records cho status, approvals, changes và responses. Nếu dùng sai version, xử lý cả tác động deliverable lẫn cơ chế ngăn tái diễn.
-- **Giới hạn:** Không coi mọi tài liệu là admin thừa; cũng không coi update document là đủ cho vấn đề con người/delivery. Nếu đề hỏi tài liệu cần xem/cập nhật, phải trả lời đúng loại tài liệu.
-
-### PMP-P21 — Chuyển giao phải giúp người nhận sử dụng knowledge
-
-- **Áp dụng:** Xác định knowledge quan trọng/người nhận; kết hợp tài liệu với walkthrough, pairing, shadowing hoặc thực hành phù hợp; kiểm tra readiness và giảm phụ thuộc cá nhân.
-- **Giới hạn:** Gửi tài liệu chưa bảo đảm transfer. Không chờ closure hoặc key member rời đi mới bắt đầu; mức kiểm tra phù hợp rủi ro/nhu cầu.
-
-### PMP-P22 — Technical completion, acceptance và closure khác nhau
-
-- **Áp dụng:** Kiểm tra acceptance/closure criteria, stakeholder approval và transition readiness; hoàn tất procurement, financials, resources và lessons learned phù hợp. Dùng lessons learned xuyên dự án để cải tiến, không chỉ lưu cuối kỳ.
-- **Giới hạn:** Terminate sớm vẫn cần closure theo governance; thứ tự dừng chi phí, thông báo và formal closure phụ thuộc urgency/policy. Không suy mỗi iteration phải làm toàn bộ thủ tục đóng dự án.
-
-## Khi nguyên tắc có vẻ mâu thuẫn
-
-Ưu tiên dữ kiện và constraints cụ thể hơn khẩu quyết chung. “Hiểu nguyên nhân trước” không thắng emergency response đã quy định; “collaborate” không thay mandatory escalation; “deliver value sớm” không cho phép bỏ compliance. Nếu thiếu dữ kiện quyết định, nêu điều kiện làm thay đổi đáp án hoặc mức chưa chắc chắn, không bịa context bảo vệ key.
-
-Khi viện dẫn định nghĩa, framework, vai trò hoặc quy định chính thức, kiểm chứng bằng nguồn phù hợp (PMI, Scrum Guide hoặc văn bản đề nhắc). Không dùng file này làm bằng chứng rằng “PMI luôn yêu cầu” một hành động.
+- Nối dữ kiện quyết định → nguyên tắc phù hợp → lý do phương án được chọn tốt hơn phương án cạnh tranh. Chỉ nêu principle khi thực sự giúp giải thích câu hỏi.
+- Nếu nguyên tắc hiện có giải thích tốt, dùng lại và bổ sung ví dụ khi hữu ích; không tạo bullet mới chỉ vì cách diễn đạt đề khác.
+- Nếu câu mới bộc lộ điều kiện còn thiếu, sửa chính bullet để rõ bối cảnh hoặc gộp nguyên tắc trùng; không tách riêng mục “áp dụng” và “giới hạn”.
+- Chỉ thêm nguyên tắc khi có cách xử lý khác có thể dùng lại cho một nhóm tình huống; viết ngắn, cụ thể, đặt đúng nhóm.
+- Không suy nguyên tắc chỉ để bảo vệ key. Nếu mock exam mơ hồ hoặc sai, chỉ ra vấn đề và kiểm chứng kiến thức/nguồn liên quan trước khi cập nhật.
+- Khi nguyên tắc có vẻ mâu thuẫn, ưu tiên dữ kiện, trạng thái, constraints và thẩm quyền trong đề. Không bịa thêm bối cảnh; không coi file này là bằng chứng “PMI luôn yêu cầu” một hành động.
