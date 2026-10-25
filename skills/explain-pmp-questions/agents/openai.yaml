@@ -1,0 +1,4 @@
+interface:
+  display_name: "PMP Question Explainer"
+  short_description: "Giải thích câu hỏi PMP bằng tiếng Việt"
+  default_prompt: "Use $explain-pmp-questions to explain this PMP question briefly in Vietnamese."
