@@ -7,7 +7,6 @@ Giúp học viên hình thành sense xử lý các dạng tình huống PMP: nh�
 - Chọn nhóm tình huống gần nhất, đối chiếu dữ kiện và so sánh các phương án. Với FIRST/NEXT, bắt đầu từ trạng thái đề mô tả; không phân tích lại việc đã hoàn tất hoặc bỏ qua bước cần thiết chưa thực hiện.
 - Các bullet là nguyên tắc coaching có thể dùng lại, không phải danh sách principles chính thức của PMI hoặc công thức chọn đáp án. Câu hỏi kỹ thuật/định nghĩa vẫn cần kiến thức tương ứng.
 - Các nhóm dưới đây phục vụ việc học, không thay thế Task chính thức. Tra Domain → Task trong [pmp-exam-content-outline.md](pmp-exam-content-outline.md). Một câu có thể liên quan nhiều nhóm; chọn nguyên tắc giải quyết đúng điểm tranh chấp.
-- Giữ Risk/Issue, Change và Continuous Improvement trong BE theo bản ECO 2026 đi kèm; value-based delivery nằm trong PRC. Nhóm tình huống có thể liên hệ chéo giữa các domain.
 
 ## People — PPL
 
@@ -51,7 +50,6 @@ Giúp học viên hình thành sense xử lý các dạng tình huống PMP: nh�
 
 - Nối dữ kiện quyết định → nguyên tắc phù hợp → lý do phương án được chọn tốt hơn phương án cạnh tranh. Chỉ nêu principle khi thực sự giúp giải thích câu hỏi.
 - Nếu nguyên tắc hiện có giải thích tốt, dùng lại và bổ sung ví dụ khi hữu ích; không tạo bullet mới chỉ vì cách diễn đạt đề khác.
-- Nếu câu mới bộc lộ điều kiện còn thiếu, sửa chính bullet để rõ bối cảnh hoặc gộp nguyên tắc trùng; không tách riêng mục “áp dụng” và “giới hạn”.
-- Chỉ thêm nguyên tắc khi có cách xử lý khác có thể dùng lại cho một nhóm tình huống; viết ngắn, cụ thể, đặt đúng nhóm.
-- Không suy nguyên tắc chỉ để bảo vệ key. Nếu mock exam mơ hồ hoặc sai, chỉ ra vấn đề và kiểm chứng kiến thức/nguồn liên quan trước khi cập nhật.
-- Khi nguyên tắc có vẻ mâu thuẫn, ưu tiên dữ kiện, trạng thái, constraints và thẩm quyền trong đề. Không bịa thêm bối cảnh; không coi file này là bằng chứng “PMI luôn yêu cầu” một hành động.
+- Thêm nguyên tắc khi có cách xử lý khác có thể dùng lại cho một nhóm tình huống; viết ngắn, cụ thể, đặt đúng nhóm.
+- Không suy nguyên tắc chỉ để bảo vệ key. Nếu mock exam mơ hồ hoặc sai, chỉ ra vấn đề và kiểm chứng kiến thức/nguồn liên quan.
+- Khi nguyên tắc có vẻ mâu thuẫn, ưu tiên dữ kiện, trạng thái, constraints và thẩm quyền trong đề. Không bịa thêm bối cảnh; không coi file này là luôn đúng.
