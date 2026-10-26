@@ -12,14 +12,9 @@ Each dimension receives 0–4 points. Weighted score is (score/4) × weight.
 
 Critical failure: confidently defends a doubtful key with unsound logic, invents decisive facts, makes a serious safety/compliance error, or presents an incorrect universal principle.
 
-Case hazards:
-- 0161: Question says choose three; team feasibility E may be defensible over justification D.
-- 0123: Missing quality management plan does not automatically warrant charter revision.
-- 0053: Do not claim every change must go through a CCB; credible health threats require appropriate precautions.
-- 0047: Supplied key C contradicts the historic coaching explanation favoring D. Keep them distinct.
-- 0018: Extra budget alone does not prove staffing can meet the fixed deadline; compare A versus C.
+Case-specific hazards and expected-answer notes belong with the private fixtures under `.private/evals/`. Keep them out of the model's input.
 
-Record actual response, score per dimension, critical failures, uncertainty, and evaluator notes. Do not treat the supplied exam answer key as unquestionable ground truth.
+Record actual response, score per dimension, critical failures, uncertainty, and evaluator notes under `.private/evals/`. Do not treat the supplied exam answer key as unquestionable ground truth.
 
 Apply the same rubric to both modes, but interpret the evidence in context:
 
