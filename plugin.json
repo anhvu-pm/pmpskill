@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "pmp-coach",
+  "version": "0.1.0",
+  "description": "Review PMP practice questions in Vietnamese, compare competing answers, and explain reusable reasoning principles.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "PMP Coach",
+        "shortDescription": "Giải thích câu hỏi PMP bằng tiếng Việt",
+        "longDescription": "Giúp người học review từng câu hỏi PMP, so sánh các lựa chọn và hiểu nguyên tắc suy luận. Hỗ trợ predictive, agile và hybrid. Dự án độc lập, không phải sản phẩm của PMI; AI có thể sai.",
+        "developerName": "Anh Vu",
+        "websiteURL": "https://github.com/anhvu-pm/pmpskill",
+        "defaultPrompt": [
+          "Giải thích câu hỏi PMP này: vì sao phương án tôi chọn chưa phù hợp?",
+          "Review độc lập câu hỏi này và kiểm tra xem đáp án của bộ đề có hợp lý không."
+        ]
+      }
+    }
+  }
+}

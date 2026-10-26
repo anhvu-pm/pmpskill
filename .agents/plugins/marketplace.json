@@ -1,0 +1,19 @@
+{
+  "name": "pmp-skills",
+  "interface": {
+    "displayName": "PMP Skills"
+  },
+  "plugins": [
+    {
+      "name": "pmp-coach",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      }
+    }
+  ]
+}
