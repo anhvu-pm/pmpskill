@@ -32,13 +32,34 @@ Làm theo workflow explain-pmp-questions để review câu hỏi PMP dưới đ�
 
 Đây là cách dùng thủ công trong cuộc trò chuyện, **chưa phải cài skill vào tài khoản**. Khi mở cuộc trò chuyện khác, cần cung cấp lại các file nếu ChatGPT chưa có quyền truy cập chúng. Không chỉ gửi riêng SKILL.md vì workflow cần cả hai tài liệu tham khảo.
 
-### Cài skill và dùng lại
+### Plugin PMP Coach (0.1.0)
 
-Theo [tài liệu OpenAI](https://learn.chatgpt.com/docs/build-skills), skill độc lập được hỗ trợ trên ChatGPT desktop; skill đóng gói trong plugin có thể dùng trên ChatGPT web, desktop và mobile. Trên desktop, mở **Skills** để kiểm tra các skill có sẵn. Nếu đã cài thành công, gõ `@` và chọn skill khi review câu hỏi.
+Repo đã có manifest `plugin.json` và một skill cùng hai tài liệu tham khảo. Đây là gói **skills-only**, không cần MCP server hoặc API key riêng.
 
-**Tình trạng repo:** hiện cung cấp mã nguồn skill, chưa có plugin cài đặt để phân phối cho học viên. Chưa kiểm chứng cài đặt đồng bộ vào tài khoản ChatGPT từ repo này; việc gửi link GitHub hoặc tải file lên chat không tự xác nhận skill đã được cài. Chỉ coi là hoàn tất khi skill xuất hiện trong danh sách và dùng được ở cuộc trò chuyện mới.
+**Trạng thái:** đã đóng gói; chưa được portal OpenAI xác nhận, chưa cài thử thành công và chưa xuất bản trên directory. ZIP không tự cài plugin vào tài khoản.
 
-Nếu muốn phân phối một cách cài dùng được trên web/mobile, bước tiếp theo là đóng gói và kiểm chứng plugin. Trong lúc đó, dùng cách đính kèm ba file ở trên để thử với câu hỏi thực tế.
+#### Tạo ZIP
+
+Từ thư mục repo, chạy với Python 3.10 trở lên:
+
+```sh
+python scripts/package_plugin.py
+```
+
+Kết quả: `dist/pmp-coach-0.1.0.zip`. Script kiểm tra cấu trúc, tham chiếu và nội dung ZIP; chỉ đóng gói manifest, LICENSE và bốn file của skill. Không đưa evals hoặc dữ liệu học viên vào gói. Đây là kiểm tra cục bộ, không thay thế validation của OpenAI.
+
+#### Thử trên ChatGPT desktop
+
+Mở repo này trong Work/Codex trên desktop. File `.agents/plugins/marketplace.json` khai báo nguồn **PMP Skills**, trỏ tới plugin ở root repo. Khởi động lại ứng dụng nếu nguồn chưa xuất hiện; chọn **PMP Coach** trong Plugins Directory và cài nếu giao diện hỗ trợ nguồn repo. Đây là cài thử cục bộ, không đảm bảo đồng bộ sang web/mobile.
+
+#### Phân phối qua directory
+
+Theo [hướng dẫn submission](https://developers.openai.com/plugins/deploy/submission), mở trang Plugins dành cho developer, chọn **Upload new or existing plugin**, chọn developer identity và upload ZIP. Xử lý các lỗi validation trước khi gửi review. Quy trình công khai cần quyền và xác minh developer phù hợp; repo chưa có link cài công khai.
+
+Sau khi plugin được cung cấp trên tài khoản, chọn nó bằng `@` trong chat mới và thử một câu hỏi thực tế. Kiểm tra rằng skill đọc được cả hai references. Người duy trì tiếp tục chấm kết quả theo [evals](evals/README.md) với câu hỏi học viên; chưa có cam kết về độ chính xác.
+
+Tham khảo [định dạng plugin và marketplace](https://developers.openai.com/plugins/build/plugins). Nội dung coaching vẫn được duy trì tại `skills/explain-pmp-questions/`; tăng `version` trong manifest và tạo lại ZIP khi phát hành bản mới.
+
 
 ## Cài đặt bổ sung cho Codex
 

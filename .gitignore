@@ -12,3 +12,6 @@
 /evals/runs/
 /evals/feedback/
 /evals/style-calibration/
+
+# Generated plugin archives
+/dist/
