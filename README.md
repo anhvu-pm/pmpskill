@@ -12,11 +12,39 @@ Kho kỹ năng AI dành cho người học PMP, bắt đầu với **`explain-pm
 
 Skill hỗ trợ câu hỏi predictive, agile và hybrid. Đáp án được cung cấp vẫn cần được kiểm tra bằng dữ kiện của đề.
 
-## Cài đặt
+## Sử dụng trong ChatGPT
 
-Bạn cần một công cụ AI hỗ trợ Agent Skills. Bản hiện tại gồm hướng dẫn và tài liệu tham khảo; quyền truy cập và chi phí sử dụng AI tùy công cụ của bạn.
+### Dùng ngay để review câu hỏi
 
-### Codex: nhờ Skill Installer cài từ GitHub
+1. Tải repo: **Code → Download ZIP**, rồi giải nén.
+2. Trong ChatGPT, đính kèm **cả ba file** từ `skills/explain-pmp-questions/`:
+   - `SKILL.md`
+   - `references/pmp-exam-content-outline.md`
+   - `references/pmp-principles.md`
+3. Gửi yêu cầu sau cùng ảnh hoặc nội dung câu hỏi:
+
+```text
+Hãy đọc SKILL.md và hai tài liệu tham khảo đính kèm.
+Làm theo workflow explain-pmp-questions để review câu hỏi PMP dưới đây.
+[Ảnh hoặc nguyên văn câu hỏi và các lựa chọn]
+[Lựa chọn của tôi và điều tôi còn thắc mắc, nếu có]
+```
+
+Đây là cách dùng thủ công trong cuộc trò chuyện, **chưa phải cài skill vào tài khoản**. Khi mở cuộc trò chuyện khác, cần cung cấp lại các file nếu ChatGPT chưa có quyền truy cập chúng. Không chỉ gửi riêng SKILL.md vì workflow cần cả hai tài liệu tham khảo.
+
+### Cài skill và dùng lại
+
+Theo [tài liệu OpenAI](https://learn.chatgpt.com/docs/build-skills), skill độc lập được hỗ trợ trên ChatGPT desktop; skill đóng gói trong plugin có thể dùng trên ChatGPT web, desktop và mobile. Trên desktop, mở **Skills** để kiểm tra các skill có sẵn. Nếu đã cài thành công, gõ `@` và chọn skill khi review câu hỏi.
+
+**Tình trạng repo:** hiện cung cấp mã nguồn skill, chưa có plugin cài đặt để phân phối cho học viên. Chưa kiểm chứng cài đặt đồng bộ vào tài khoản ChatGPT từ repo này; việc gửi link GitHub hoặc tải file lên chat không tự xác nhận skill đã được cài. Chỉ coi là hoàn tất khi skill xuất hiện trong danh sách và dùng được ở cuộc trò chuyện mới.
+
+Nếu muốn phân phối một cách cài dùng được trên web/mobile, bước tiếp theo là đóng gói và kiểm chứng plugin. Trong lúc đó, dùng cách đính kèm ba file ở trên để thử với câu hỏi thực tế.
+
+## Cài đặt bổ sung cho Codex
+
+Dành cho người dùng Codex có hỗ trợ cài Agent Skills. Đây là cài đặt cho môi trường Codex, không xác nhận cài đặt đồng bộ cho ChatGPT web/mobile.
+
+### Nhờ Skill Installer cài từ GitHub
 
 Trong Codex, gửi yêu cầu:
 
@@ -25,17 +53,15 @@ Use $skill-installer to install the skill from
 https://github.com/anhvu-pm/pmpskill/tree/main/skills/explain-pmp-questions
 ```
 
-Sau khi cài, tìm `explain-pmp-questions` trong danh sách skills. Nếu chưa xuất hiện, khởi động lại Codex. Xem [hướng dẫn skills chính thức của OpenAI](https://learn.chatgpt.com/docs/build-skills).
+Sau khi cài, tìm `explain-pmp-questions` trong danh sách skills và thử trong cuộc trò chuyện mới. Nếu chưa xuất hiện, khởi động lại Codex.
 
-### Codex: cài thủ công
+### Cài thủ công cho Codex
 
 1. Tải ZIP từ GitHub: **Code → Download ZIP**, rồi giải nén; hoặc clone repo bằng Git.
 2. Copy **toàn bộ thư mục** `skills/explain-pmp-questions` vào thư mục skills cá nhân:
-
    - Windows: `%USERPROFILE%\.agents\skills\explain-pmp-questions`
    - macOS / Linux: `~/.agents/skills/explain-pmp-questions`
-
-3. Kiểm tra cấu trúc sau; giữ nguyên cả hai file trong `references/`:
+3. Giữ nguyên cấu trúc:
 
 ```text
 explain-pmp-questions/
@@ -51,16 +77,14 @@ explain-pmp-questions/
 
 ### Công cụ AI khác
 
-Dùng cơ chế cài Agent Skills của công cụ đó và giữ nguyên toàn bộ thư mục skill. Các bước cụ thể tùy công cụ; repo hiện chưa cung cấp gói plugin hoặc hướng dẫn cài đã kiểm chứng cho từng nền tảng.
-
-Nếu công cụ chưa hỗ trợ cài skills, bạn có thể đính kèm `SKILL.md` và cả hai file tham khảo, rồi yêu cầu AI làm theo hướng dẫn. Đây là cách dùng thủ công; không tạo cài đặt lâu dài hoặc bảo đảm hành vi tương đương tích hợp skills.
+Dùng cơ chế cài Agent Skills của công cụ đó và giữ nguyên toàn bộ thư mục skill. Các bước cụ thể tùy công cụ; repo chưa cung cấp hướng dẫn cài đã kiểm chứng cho từng nền tảng.
 
 ## Bắt đầu với một câu hỏi
 
-Copy mẫu sau và điền thông tin:
+Trong ChatGPT, dùng mẫu này sau khi đính kèm đủ ba file hoặc chọn skill đã cài bằng `@`. Trong Codex, có thể gọi `$explain-pmp-questions`.
 
 ```text
-Use $explain-pmp-questions to review this PMP practice question.
+Hãy dùng workflow explain-pmp-questions để review câu hỏi PMP này.
 
 Có thể đính kèm ảnh màn hình hoặc cung cấp thông tin:
 [Nguyên văn câu hỏi]
