@@ -1,32 +1,29 @@
-# PMP Coach evaluations
+# PMP skill evaluation guide
 
-Goal: evaluate whether `explain-pmp-questions` explains disputed PMP questions accurately, independently, and helpfully.
+This folder contains the public evaluation method and scoring rubric. Raw learner cases, personal style calibration, actual responses, scores, and reviewer notes belong under the ignored `.private/` folder. Learners only need the skill and its references to use it.
 
-## Assets
-- `cases.md`: five original learner scenarios; supplied keys are **not** guaranteed ground truth.
-- `rubric.md`: scoring instructions.
-- `baseline-review.md`: initial desk review, NOT a blind execution of the skill.
+## Two evaluation modes
 
-## Lightweight evaluation workflow
-1. Record the date, model/platform, and skill commit SHA.
-2. For each case and each evaluation mode, start a separate fresh session with `SKILL.md` and both referenced files loaded. Do not reuse the primary conversation for the blind run or provide the full evaluator fixture.
-3. Run the **primary coaching evaluation** with the original question, all options, supplied answer key, and learner objection/comment. This tests the real coaching task: respond to the learner while evaluating the key critically rather than treating it as ground truth.
-4. Run the **secondary independent/blind reasoning evaluation** with the question and all options only. Hide both the supplied answer key and the learner objection/comment, along with the historical answer and case-specific risk.
-5. Save each output verbatim under `evals/runs/<date>/`, label it `primary` or `blind`, then score the frozen output with `rubric.md`. Keep results for the two modes separate.
-6. Rerun only when investigating an unclear, inconsistent, or failed result. Record feedback and refine the skill only for demonstrated issues.
+| Mode | Input given to the skill | Purpose |
+|---|---|---|
+| Primary coaching | Original question, all options, supplied answer key, and learner objection/comment | Evaluate the actual coaching response, including critical examination of the supplied key |
+| Secondary independent/blind reasoning | Original question and all options only | Evaluate reasoning while hiding BOTH the answer key AND the learner objection/comment |
 
-The five fixtures are a lightweight engineering smoke test, not an estimate of population accuracy. The supplied keys are evidence to examine in the primary evaluation, not unquestionable ground truth.
+For every case and mode, start a separate fresh session with `skills/explain-pmp-questions/SKILL.md` and its two references loaded. Copy only the allowed fields. Keep case titles, expected answers, historical coaching, evaluator risks, and prior runs out of the input. Do not attach the complete private fixture to a blind session.
 
-## Next step: real learner scenarios
-The user will personally test and evaluate the skill outputs with new real learner scenarios from the PMA LMS as they arrive daily. They will record feedback and use the findings to refine the skill. Keep this loop lightweight: capture the scenario and output, note what helped or failed, and make focused refinements when a pattern or material issue appears.
+## Lightweight private workflow
 
-Private beta gate: mean >=85/100 and no critical failures. Check consistency with targeted reruns when a decision is unclear or unstable.
+1. Record the date, model/platform, and skill version or commit SHA.
+2. Run the primary evaluation with all four input fields. If a live learner scenario has no supplied key, record that fact rather than inventing one.
+3. Use the secondary mode as an independent baseline or targeted check when needed, in its own fresh session.
+4. Save complete outputs under `.private/evals/runs/<date>/` and label their mode before scoring with [rubric.md](rubric.md). Keep scores for the two modes separate.
+5. Record what helped or failed, the reviewer's corrected reply, and the reason for each important correction. Rerun when investigating a meaningful failure or inconsistency.
+6. Refine the skill for demonstrated issues, then check the change against fresh scenarios. Feedback does not automatically change the skill.
 
-## Personal coaching pilot
-Use the actual skill with the original question, all options, supplied key (when available), and the learner's comment. Suggested prompt:
+## Next step: daily PMA LMS review
 
-> Use $explain-pmp-questions to draft a reply to this learner in brief Vietnamese. Evaluate the supplied key critically, address the learner's objection, and follow the coaching style in the skill. I will review the reply before using it.
+The maintainer will personally test and evaluate skill outputs with new real learner scenarios from PMA LMS as they arrive daily, record feedback, and refine the skill. Keep scenarios and outputs in `.private/evals/`, feedback in `.private/feedback/`, and approved examples for personal wording and tone in `.private/style/`.
 
-Keep one short feedback note per scenario: date/case, skill version, draft, your corrected reply, and why you changed it. A few approved replies can help calibrate your personal wording and tone. Feedback does not automatically update the skill; incorporate recurring findings deliberately, then try them on new scenarios.
+The original five-case baseline and desk review have been preserved in the maintainer's local working copy under `.private/evals/baseline-2026-10-26/`. They are no longer distributed in the current public tree or included in fresh clones. Earlier public commits still contain them; ignoring or removing a file does not erase Git history.
 
-The current skill specifies a coaching style, but no saved executions yet demonstrate answer quality or fidelity to the user's personal style. This is ready for a personally reviewed pilot; measured results will come from the baseline and daily PMA LMS feedback.
+No measured results are currently published. Public examples and aggregate findings should be deliberately reviewed for permission to share and identifying information before publication. Small samples are useful smoke tests, not estimates of population accuracy.

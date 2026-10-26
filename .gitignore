@@ -1,2 +1,14 @@
-.private/
-.gstack/
+# Private learner data, approved style examples, feedback, and actual eval outputs
+/.private/
+
+# Local tooling and temporary downloads
+/.gstack/
+/.tmp/
+/tmp/
+
+# Legacy local eval paths: keep raw cases and outputs out of public commits
+/evals/cases.md
+/evals/baseline-review.md
+/evals/runs/
+/evals/feedback/
+/evals/style-calibration/
