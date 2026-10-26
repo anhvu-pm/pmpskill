@@ -10,11 +10,11 @@ Kho kỹ năng AI dành cho người học PMP, bắt đầu với **`explain-pm
 |---|---|---|
 | [explain-pmp-questions](skills/explain-pmp-questions/SKILL.md) | Bạn phân vân giữa các lựa chọn, chưa hiểu đáp án của bộ đề, hoặc muốn review câu làm sai | Giải thích tiếng Việt ngắn gọn; so sánh phương án; nêu `Principle:` khi có nguyên tắc phù hợp |
 
-Skill hỗ trợ câu hỏi predictive, agile và hybrid; xem xét đúng yêu cầu `FIRST`, `NEXT`, `BEST`, `MOST` hoặc `SHOULD`. Đáp án được cung cấp vẫn cần được kiểm tra bằng dữ kiện của đề.
+Skill hỗ trợ câu hỏi predictive, agile và hybrid. Đáp án được cung cấp vẫn cần được kiểm tra bằng dữ kiện của đề.
 
 ## Cài đặt
 
-Bạn cần một công cụ AI hỗ trợ Agent Skills. Bản hiện tại gồm hướng dẫn và tài liệu tham khảo, không cần cài Python, Node.js hay API key riêng cho skill; quyền truy cập và chi phí sử dụng AI tùy công cụ của bạn.
+Bạn cần một công cụ AI hỗ trợ Agent Skills. Bản hiện tại gồm hướng dẫn và tài liệu tham khảo; quyền truy cập và chi phí sử dụng AI tùy công cụ của bạn.
 
 ### Codex: nhờ Skill Installer cài từ GitHub
 
@@ -49,8 +49,6 @@ explain-pmp-questions/
 
 4. Mở cuộc trò chuyện mới, chọn skill hoặc gọi `$explain-pmp-questions`. Nếu skill chưa hiện, khởi động lại Codex.
 
-Chỉ tải repo hoặc merge thay đổi trên GitHub chưa tự cài skill. Nếu bạn đã cài một bản copy, hãy lưu lại tùy chỉnh cá nhân trước khi thay bằng phiên bản mới; cập nhật repo không tự cập nhật bản copy đã cài.
-
 ### Công cụ AI khác
 
 Dùng cơ chế cài Agent Skills của công cụ đó và giữ nguyên toàn bộ thư mục skill. Các bước cụ thể tùy công cụ; repo hiện chưa cung cấp gói plugin hoặc hướng dẫn cài đã kiểm chứng cho từng nền tảng.
@@ -64,28 +62,22 @@ Copy mẫu sau và điền thông tin:
 ```text
 Use $explain-pmp-questions to review this PMP practice question.
 
-Câu hỏi: [nguyên văn câu hỏi]
-A. [...]
-B. [...]
-C. [...]
-D. [...]
-[Thêm mọi lựa chọn còn lại nếu có.]
-
-Đáp án bộ đề (nếu có): [...]
-Lựa chọn của bạn (nếu có): [...]
-Câu hỏi thêm (nếu có): [...]
+Có thể đính kèm ảnh màn hình hoặc cung cấp thông tin:
+[Nguyên văn câu hỏi]
+[Đáp án (nếu có)]
+[Lựa chọn của bạn & câu hỏi thêm (nếu có)]
 ```
 
-Bạn sẽ thường nhận câu trả lời khoảng 80–180 từ: kết luận trước, 1–2 dữ kiện quyết định, so sánh với lựa chọn cạnh tranh và một nguyên tắc có phạm vi áp dụng rõ. Nếu đề mơ hồ, skill được hướng dẫn nói rõ điều đó. Không phải câu hỏi nào cũng cần tạo thêm một nguyên tắc mới.
+Bạn sẽ thường nhận câu trả lời khoảng 80–180 từ: kết luận trước, 1–2 dữ kiện quyết định, so sánh với lựa chọn cạnh tranh và một nguyên tắc hỗ trợ việc suy luận. Nếu đề mơ hồ, skill được hướng dẫn nói rõ điều đó. Không phải câu hỏi nào cũng có nguyên tắc để takeaway.
 
-Sau khi đọc, tự diễn đạt lại nguyên tắc và thử áp dụng vào câu tiếp theo. Mục tiêu là hiểu cách suy luận, thay vì chỉ nhớ chữ cái đáp án.
+Sau khi đọc, tự diễn đạt lại nguyên tắc và thử áp dụng vào câu tiếp theo. Mục tiêu là hiểu cách suy luận, thay vì chỉ nhớ keywords đáp án.
 
 ## Phạm vi và tình trạng hiện tại
 
 - Đây là công cụ hỗ trợ học tập; người học cần đối chiếu lập luận với đề và tài liệu học của mình. AI vẫn có thể sai.
 - Giọng trả lời mặc định là thân thiện, trực tiếp, ngắn gọn bằng tiếng Việt. Ví dụ hiệu chỉnh phong cách cá nhân của người duy trì được giữ riêng.
 - Chưa có kết quả đánh giá thực thi được công bố; repo chưa đưa ra cam kết về độ chính xác hoặc kết quả thi.
-- Tài liệu ECO đi kèm là bản tóm lược tham khảo cho July 2026; không phải bản dịch chính thức. Dự án độc lập, không phải sản phẩm của PMI.
+- Dự án độc lập, không phải sản phẩm của PMI.
 
 ## Góp ý và đóng góp
 
