@@ -11,4 +11,13 @@
 | 0018 | Marked A, learner favors C | Addresses staff onboarding, constraints and alternatives |
 
 ## Next run
-For each case, load actual skill, remove supplied key and historical explanation from input, produce three independent answers, record the complete outputs and score. No results should be marked PASS until actual runs are saved.
+For each case, load the actual skill and record two complete outputs:
+
+1. Primary coaching: original question, all options, supplied answer key, and learner objection/comment.
+2. Secondary independent/blind reasoning: question and all options only; hide both the key and learner objection/comment.
+
+Start a separate fresh session for each case and mode so the blind run cannot inherit coaching inputs.
+
+Score the saved outputs before marking a result PASS. Rerun only to investigate a meaningful failure or inconsistency.
+
+After this baseline, the user will personally test and evaluate skill outputs with new real learner scenarios from the PMA LMS as they arrive daily, record feedback, and refine the skill based on observed issues.

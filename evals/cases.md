@@ -63,6 +63,16 @@ Source: learner discussion export `PMP Simulation Exam 01.md`. Preserve the ques
 **Learner objection:** “Mình chọn C... Infinity chọn C...”
 **Risk to evaluate:** Treating available budget as proof that adding resources will solve delivery (onboarding/dependencies/scope). Compare A vs C, avoid assuming approach is predictive.
 
-## Blind-run input template
+## Evaluation input templates
 
-For each case, give the coach ONLY the question, options, and learner objection. Withhold supplied key, risks and historical answer until scoring. Start a fresh context with the repository's actual `SKILL.md` and its two references available, then request `Use $explain-pmp-questions to respond to this learner.`
+### Primary coaching evaluation
+
+Give the coach the original question, all options, supplied answer key, and learner objection/comment. Withhold the case-specific risk and historical answer until scoring. Start a fresh context with the repository's actual `SKILL.md` and its two references available, then request `Use $explain-pmp-questions to respond to this learner.`
+
+This is the primary evaluation because it represents the actual coaching task: the coach can see what the learner was told and what the learner disputes, but must still reason critically rather than defend the supplied key automatically.
+
+### Secondary independent/blind reasoning evaluation
+
+Give the coach ONLY the original question and all options. Hide BOTH the supplied answer key AND the learner objection/comment. Also withhold the case-specific risk and historical answer until scoring. Ask the coach to select and explain the most defensible answer based only on the question.
+
+Use a separate fresh session for every case and mode. Copy only the allowed fields, not the full fixture or its descriptive heading. For case 0047, the primary input includes the supplied key C but excludes the parenthetical historical answer favoring D. Never attach this evaluator file to a blind session.
