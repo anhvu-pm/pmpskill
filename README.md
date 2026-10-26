@@ -64,19 +64,16 @@ Copy mẫu sau và điền thông tin:
 ```text
 Use $explain-pmp-questions to review this PMP practice question.
 
-Câu hỏi: [nguyên văn câu hỏi, gồm FIRST/NEXT/BEST và số đáp án cần chọn]
+Câu hỏi: [nguyên văn câu hỏi]
 A. [...]
 B. [...]
 C. [...]
 D. [...]
 [Thêm mọi lựa chọn còn lại nếu có.]
 
-Đáp án bộ đề: [nếu có; nếu chưa biết, ghi "chưa có"]
-Mình chọn: [...]
-Điều mình chưa hiểu: [vì sao mình nghĩ lựa chọn này đúng hoặc phản biện cụ thể]
-
-Giải thích ngắn gọn bằng tiếng Việt. So sánh trực tiếp với phương án
-mình chọn, chỉ ra dữ kiện quyết định, và thêm Principle nếu phù hợp.
+Đáp án bộ đề (nếu có): [...]
+Lựa chọn của bạn (nếu có): [...]
+Câu hỏi thêm (nếu có): [...]
 ```
 
 Bạn sẽ thường nhận câu trả lời khoảng 80–180 từ: kết luận trước, 1–2 dữ kiện quyết định, so sánh với lựa chọn cạnh tranh và một nguyên tắc có phạm vi áp dụng rõ. Nếu đề mơ hồ, skill được hướng dẫn nói rõ điều đó. Không phải câu hỏi nào cũng cần tạo thêm một nguyên tắc mới.
@@ -92,26 +89,8 @@ Sau khi đọc, tự diễn đạt lại nguyên tắc và thử áp dụng vào
 
 ## Góp ý và đóng góp
 
-Mở [GitHub Issue](https://github.com/anhvu-pm/pmpskill/issues) khi bạn gặp lập luận chưa thuyết phục, hướng dẫn cài khó hiểu, hoặc có ý tưởng cho skill mới. Với lỗi suy luận, nêu phiên bản skill, câu trả lời nhận được, điểm chưa hợp lý và cách bạn đề xuất sửa.
-
-Chỉ chia sẻ ví dụ tự viết hoặc được phép chia sẻ; bỏ tên, thông tin nhận diện và nội dung LMS riêng tư. Không đăng nguyên bộ đề, dữ liệu học viên hoặc ví dụ hiệu chỉnh cá nhân trong Issue/PR công khai.
-
-## Dành cho người duy trì: dữ liệu riêng tư
-
-Giữ nội dung có thể chia sẻ trong `skills/` và hướng dẫn đánh giá chung trong [evals/](evals/README.md). Lưu dữ liệu làm việc riêng dưới `.private/`:
-
-```text
-.private/
-├── raw/        # Nguồn LMS và trao đổi gốc
-├── style/      # Câu trả lời mẫu đã duyệt, ghi chú giọng văn
-├── feedback/   # Nhận xét và bản sửa của người review
-└── evals/      # Cases riêng, đầu ra thực tế và điểm đánh giá
-```
-
-`.private/`, đầu ra đánh giá cục bộ và thư mục tạm được loại khỏi Git bằng `.gitignore`. File đã được commit trước đó vẫn tồn tại trong lịch sử, kể cả sau khi ngừng theo dõi. `.gitignore` không mã hóa dữ liệu, không ngăn công cụ AI đọc file, và không tự kiểm soát dữ liệu bạn gửi cho dịch vụ AI.
-
-Chỉ công bố ví dụ hoặc kết quả tổng hợp sau khi chủ động kiểm tra nội dung có thể chia sẻ. Feedback không tự cập nhật skill; các cải tiến cần được review rồi đưa vào phiên bản tiếp theo.
+Mở [GitHub Issue](https://github.com/anhvu-pm/pmpskill/issues) khi bạn gặp lập luận chưa thuyết phục, hướng dẫn cài khó hiểu, hoặc có ý tưởng cho skill mới.
 
 ## License
 
-Repo hiện chưa có file `LICENSE`; người duy trì chưa chọn giấy phép cho nội dung tự biên soạn. Quyết định này sẽ được ghi rõ khi bổ sung giấy phép.
+[MIT License](LICENSE) © 2026 anhvu-pm.
