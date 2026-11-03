@@ -12,9 +12,11 @@ Each dimension receives 0–4 points. Weighted score is (score/4) × weight.
 
 Critical failure: confidently defends a doubtful key with unsound logic, invents decisive facts, makes a serious safety/compliance error, or presents an incorrect universal principle.
 
-Case-specific hazards and expected-answer notes belong with the private fixtures under `.private/evals/`. Keep them out of the model's input.
+Paths below are relative to the separately configured private workspace, outside this public repository.
 
-Record actual response, score per dimension, critical failures, uncertainty, and evaluator notes under `.private/evals/`. Do not treat the supplied exam answer key as unquestionable ground truth.
+Case-specific hazards and expected-answer notes belong with the private fixtures under `evals/`. Keep them out of the model's input.
+
+Record actual response, score per dimension, critical failures, uncertainty, and evaluator notes under `evals/`. Do not treat the supplied exam answer key as unquestionable ground truth.
 
 Apply the same rubric to both modes, but interpret the evidence in context:
 

@@ -1,6 +1,8 @@
 # PMP skill evaluation guide
 
-This folder contains the public evaluation method and scoring rubric. Raw learner cases, personal style calibration, actual responses, scores, and reviewer notes belong under the ignored `.private/` folder. Learners only need the skill and its references to use it.
+This folder contains the public evaluation method and scoring rubric. Raw learner cases, personal style calibration, actual responses, scores, and reviewer notes belong in a separately configured private workspace. Learners only need the skill and its references to use it.
+
+All `evals/`, `feedback/` and `style/` paths below are relative to that private workspace, outside this public repository. Configure its location privately.
 
 ## Two evaluation modes
 
@@ -16,14 +18,18 @@ For every case and mode, start a separate fresh session with `skills/explain-pmp
 1. Record the date, model/platform, and skill version or commit SHA.
 2. Run the primary evaluation with all four input fields. If a live learner scenario has no supplied key, record that fact rather than inventing one.
 3. Use the secondary mode as an independent baseline or targeted check when needed, in its own fresh session.
-4. Save complete outputs under `.private/evals/runs/<date>/` and label their mode before scoring with [rubric.md](rubric.md). Keep scores for the two modes separate.
+4. Save complete outputs under `evals/runs/<date>/` and label their mode before scoring with [rubric.md](rubric.md). Keep scores for the two modes separate.
 5. Record what helped or failed, the reviewer's corrected reply, and the reason for each important correction. Rerun when investigating a meaningful failure or inconsistency.
 6. Refine the skill for demonstrated issues, then check the change against fresh scenarios. Feedback does not automatically change the skill.
 
 ## Next step: daily PMA LMS review
 
-The maintainer will personally test and evaluate skill outputs with new real learner scenarios from PMA LMS as they arrive daily, record feedback, and refine the skill. Keep scenarios and outputs in `.private/evals/`, feedback in `.private/feedback/`, and approved examples for personal wording and tone in `.private/style/`.
+The maintainer will personally test and evaluate skill outputs with new real learner scenarios from PMA LMS as they arrive daily, record feedback, and refine the skill. Keep scenarios and outputs in `evals/`, feedback in `feedback/`, and approved examples for personal wording and tone in `style/`.
 
-The original five-case baseline and desk review have been preserved in the maintainer's local working copy under `.private/evals/baseline-2026-10-26/`. They are no longer distributed in the current public tree or included in fresh clones. Earlier public commits still contain them; ignoring or removing a file does not erase Git history.
+The original five-case baseline and desk review have been preserved in the maintainer's private workspace under `evals/baseline-2026-10-26/`. They are no longer distributed in the current public tree or included in fresh clones. Earlier public commits still contain them; ignoring or removing a file does not erase Git history.
 
 No measured results are currently published. Public examples and aggregate findings should be deliberately reviewed for permission to share and identifying information before publication. Small samples are useful smoke tests, not estimates of population accuracy.
+
+## Personal style calibration
+
+When a private calibration index is configured, read 2–3 approved answer sections from eligible cases before drafting. Reserve held-out case IDs first; exclude all versions of those cases and the current case, rejected answers and expected evaluation answers. Do not attach mixed fixtures. Record sample IDs and a separate human style pass/fail result in private reviewer notes. Keep independent reasoning and blind-mode input restrictions intact. If eligible samples are unavailable, record calibration as unavailable. Private paths and artifacts are not shipped with this public repository.

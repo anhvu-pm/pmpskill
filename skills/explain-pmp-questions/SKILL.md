@@ -7,6 +7,14 @@ description: Explain individual PMP practice questions and disputed answer keys 
 
 Giải thích một câu hỏi PMP theo đúng dữ kiện của đề, ưu tiên giúp người học hiểu cách chọn phương án phù hợp nhất, xây dựng các nguyên tắc giúp giải quyết câu hỏi tình huống trong bài thi PMP.
 
+## Hiệu chỉnh giọng trước khi trả lời
+
+Nếu workspace có cấu hình kho mẫu riêng được phép truy cập, đọc 2–3 **section câu trả lời đã được duyệt** trước khi viết; chỉ liệt kê tên file là chưa đủ. Dùng danh mục calibration riêng để chọn section, không đọc toàn bộ fixture chứa lẫn nhiều phiên bản.
+
+- Loại trừ câu trả lời bị bác, bản nháp chưa duyệt, đáp án expected/held-out eval và mọi bản sao của case đang trả lời hoặc đang đánh giá. Chốt danh sách held-out trước khi chọn mẫu; không dùng eval fixture làm style sample.
+- Chỉ học lời văn và cách giải thích; vẫn kiểm tra đáp án độc lập. Không chép tên, câu hỏi, phản hồi, điểm số hay đường dẫn riêng vào tài liệu public hoặc câu trả lời cho người khác.
+- Nếu không có kho riêng hoặc không đủ mẫu hợp lệ, dùng hướng dẫn public dưới đây và nói rõ chưa hiệu chỉnh theo mẫu cá nhân; không tự bịa mẫu. Người học cài skill public không cần kho riêng.
+
 ## Phân tích câu hỏi
 
 1. Xác định chính xác đề đang hỏi gì: `FIRST`, `NEXT`, `BEST`, `MOST likely`, hành động nên làm, vấn đề cần giải quyết.
@@ -36,7 +44,9 @@ Dùng cấu trúc tự nhiên sau, không cần tiêu đề nếu câu trả l�
 1. Kết luận ngay: “Ở câu này, **D** sát hơn vì...” hoặc “Câu này chưa chặt; nếu buộc chọn thì **B** là phương án ít sai nhất.”
 2. Chỉ ra 1–2 keyword/dữ kiện quyết định, đặt trong dấu ngoặc kép khi hữu ích.
 3. So sánh trực tiếp với phương án người học đang hỏi, hoặc đã chọn: “C tốt ở..., nhưng chưa...”
-4. Thêm dòng `Principle:` khi có một nguyên tắc được sử dụng để suy luận ra đáp án, học viên có thể ghi nhớ cho tình huống tương tự.
+4. Chỉ thêm dòng `Principle:` khi giúp người học hiểu thêm; không lặp lại kết luận bằng một takeaway không cần thiết.
+
+Giải thích vấn đề cụ thể và cơ chế hành động giúp giải quyết nó bằng lời thường, thay vì chỉ nêu tên công cụ. So sánh phương án cạnh tranh liên quan; không mở rộng sang mọi lựa chọn nếu không cần. Chỉ nêu mơ hồ khi dữ kiện thực sự ảnh hưởng quyết định, không dùng mơ hồ làm lời mở đầu mặc định.
 
 Giữ giọng thân thiện, trực diện, giống một giảng viên đang trả lời comment. Có thể dùng các cách diễn đạt như:
 
