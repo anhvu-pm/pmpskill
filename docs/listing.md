@@ -13,6 +13,8 @@ Prepared 2026-11-09. Listing copy is ready for packaging; public directory appro
 | Response language | Vietnamese |
 | Website | https://github.com/anhvu-pm/pmpskill |
 | Support | [Support page](support.md) |
+| Privacy | [Privacy policy](privacy.md) |
+| Terms | [Terms of use](terms.md) |
 | Icon | [Navy book and teal checkmark](../assets/pmp-coach.png) |
 
 ## Description
@@ -26,10 +28,10 @@ Review individual PMP practice questions with concise explanations in Vietnamese
 
 ## Release scope
 
-Version 0.1.1 prepares the public product name, English listing copy, category, support page, and icon. The coaching instructions are unchanged. No MCP server, external account integration, or payment feature is included.
+Version 0.1.2 includes the public product name, English listing copy, category, support page, icon, and finalized privacy and terms URLs. The coaching instructions are unchanged. No MCP server, external account integration, or payment feature is included.
 
-Public privacy and terms pages must be finalized against the maintainer's actual practices before being linked as active policies. Country availability and verified publisher identity still need to be selected in the submission flow.
+Privacy and terms are effective 2026-11-09. GitHub Issues are the sole project support channel. Country availability and verified publisher identity still need to be selected in the submission flow; no country targeting has been imposed by this package.
 
 The original generated icon is a square, opaque PNG designed for light and dark interfaces. Optional alternate theme assets are not included.
 
-Prepared for maintainer review: [privacy policy draft](drafts/privacy.md) and [terms draft](drafts/terms.md). They are not active policies and are deliberately absent from the listing's policy URL fields. Confirm data handling and support retention, resolve draft notes, and publish final pages before linking them in the manifest.
+Supporting pages and icon are complete. The package is prepared for fresh-install testing and portal validation; it has not been submitted or published in the directory.
