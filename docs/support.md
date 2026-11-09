@@ -12,6 +12,8 @@ Include the plugin version, whether you use ChatGPT or Codex, what you expected,
 
 For an issue containing personal information, remove or edit your own content where GitHub permits it. You can also use [GitHub's privacy support](https://support.github.com/contact/privacy). Do not repeat the information in a new public issue.
 
+Privacy and removal requests also use GitHub Issues. Identify the affected issue or comment without repeating personal information. See the [privacy policy](privacy.md) and [terms of use](terms.md).
+
 ## Installation status
 
 The repository provides the source and local installation instructions. A public OpenAI directory installation link has not yet been verified. Follow the [README](../README.md) for the currently documented installation methods.
