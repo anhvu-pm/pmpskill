@@ -1,6 +1,10 @@
-# PMP Skills
+# PMP Coach by Anh Vu
 
-Helpful AI skills for PMP learners: review your practice results, understand competing answers, and take away concise principles for similar situations.
+PMP Coach by Anh Vu is a Vietnamese PMP question-review plugin for ChatGPT and Codex. Its source code is maintained in this `pmpskill` repository.
+
+![PMP Coach icon](assets/pmp-coach.png)
+
+Review practice questions, compare competing answers, and understand reasoning principles for similar situations. [Get support](docs/support.md).
 
 Kho kỹ năng AI dành cho người học PMP, bắt đầu với **`explain-pmp-questions`**: giúp bạn tự review câu hỏi đã làm, hiểu vì sao một phương án phù hợp hơn, và rút ra nguyên tắc ngắn gọn để áp dụng cho tình huống tương tự.
 
@@ -32,11 +36,11 @@ Làm theo workflow explain-pmp-questions để review câu hỏi PMP dưới đ�
 
 Đây là cách dùng thủ công trong cuộc trò chuyện, **chưa phải cài skill vào tài khoản**. Khi mở cuộc trò chuyện khác, cần cung cấp lại các file nếu ChatGPT chưa có quyền truy cập chúng. Không chỉ gửi riêng SKILL.md vì workflow cần cả hai tài liệu tham khảo.
 
-### Plugin PMP Coach (0.1.0)
+### Plugin PMP Coach by Anh Vu (0.1.1)
 
 Repo đã có manifest `plugin.json` và một skill cùng hai tài liệu tham khảo. Đây là gói **skills-only**, không cần MCP server hoặc API key riêng.
 
-**Trạng thái:** đã đóng gói; chưa được portal OpenAI xác nhận, chưa cài thử thành công và chưa xuất bản trên directory. ZIP không tự cài plugin vào tài khoản.
+**Trạng thái:** đang chuẩn bị listing công khai; ảnh cài đặt của người duy trì cho thấy PMP Coach đã cài trên desktop, nhưng chưa kiểm chứng cài mới trên tài khoản học viên. Chưa có link cài công khai hoặc xác nhận xuất bản từ portal OpenAI. ZIP không tự cài plugin vào tài khoản.
 
 #### Tạo ZIP
 
@@ -46,11 +50,11 @@ Từ thư mục repo, chạy với Python 3.10 trở lên:
 python scripts/package_plugin.py
 ```
 
-Kết quả: `dist/pmp-coach-0.1.0.zip`. Script kiểm tra cấu trúc, tham chiếu và nội dung ZIP; chỉ đóng gói manifest, LICENSE và bốn file của skill. Không đưa evals hoặc dữ liệu học viên vào gói. Đây là kiểm tra cục bộ, không thay thế validation của OpenAI.
+Kết quả: `dist/pmp-coach-0.1.1.zip`. Script kiểm tra cấu trúc, tham chiếu và nội dung ZIP; chỉ đóng gói manifest, LICENSE, icon và bốn file của skill. Không đưa evals hoặc dữ liệu học viên vào gói. Đây là kiểm tra cục bộ, không thay thế validation của OpenAI.
 
 #### Thử trên ChatGPT desktop
 
-Mở repo này trong Work/Codex trên desktop. File `.agents/plugins/marketplace.json` khai báo nguồn **PMP Skills**, trỏ tới plugin ở root repo. Khởi động lại ứng dụng nếu nguồn chưa xuất hiện; chọn **PMP Coach** trong Plugins Directory và cài nếu giao diện hỗ trợ nguồn repo. Đây là cài thử cục bộ, không đảm bảo đồng bộ sang web/mobile.
+Mở repo này trong Work/Codex trên desktop. File `.agents/plugins/marketplace.json` khai báo nguồn **PMP Coach by Anh Vu**, trỏ tới plugin ở root repo. Khởi động lại ứng dụng nếu nguồn chưa xuất hiện; chọn **PMP Coach by Anh Vu** trong Plugins Directory và cài nếu giao diện hỗ trợ nguồn repo. Đây là cài thử cục bộ, không đảm bảo đồng bộ sang web/mobile.
 
 #### Phân phối qua directory
 

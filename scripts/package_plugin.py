@@ -10,6 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 FILES = (
     "plugin.json",
     "LICENSE",
+    "assets/pmp-coach.png",
     "skills/explain-pmp-questions/SKILL.md",
     "skills/explain-pmp-questions/agents/openai.yaml",
     "skills/explain-pmp-questions/references/pmp-exam-content-outline.md",
@@ -34,7 +35,9 @@ def build():
         if path.is_symlink() or not path.resolve().is_relative_to(ROOT):
             raise ValueError(f"File must stay inside repository: {name}")
         data = path.read_bytes()
-        if not data or not data.decode("utf-8").strip():
+        if not data:
+            raise ValueError(f"Empty file: {name}")
+        if not name.endswith(".png") and not data.decode("utf-8").strip():
             raise ValueError(f"Empty UTF-8 file: {name}")
         payload[name] = data
     skill_name = "skills/explain-pmp-questions/SKILL.md"
