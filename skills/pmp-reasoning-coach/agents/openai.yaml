@@ -1,0 +1,4 @@
+interface:
+  display_name: "PMP Reasoning Coach"
+  short_description: "Luyện tư duy giải câu hỏi tình huống PMP"
+  default_prompt: "Use $pmp-reasoning-coach to coach me through this PMP question in Vietnamese. Ask about my understanding and rationale before explaining the answer."

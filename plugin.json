@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "pmp-coach",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Review PMP practice questions in Vietnamese, compare competing answers, and explain reusable reasoning principles.",
   "extensions": {
     "com.openai": {
@@ -23,7 +23,7 @@
         "termsOfServiceURL": "https://github.com/anhvu-pm/pmpskill/blob/main/docs/terms.md"
       },
       "publication": {
-        "release_notes": "Finalize privacy and terms with GitHub Issues as the sole support channel; add public policy URLs. Coaching instructions are unchanged."
+        "release_notes": "Add PMP Reasoning Coach: elicit learner interpretation and rationale before focused feedback and a transferable takeaway. Keep direct explanations available."
       }
     }
   },

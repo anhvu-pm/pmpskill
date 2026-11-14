@@ -1,6 +1,6 @@
 ---
 name: explain-pmp-questions
-description: Explain individual PMP practice questions and disputed answer keys in brief, clear Vietnamese. Use when a learner provides a PMP-style multiple-choice question and asks why an option is correct or wrong, whether another option is better, whether the official key is defensible, or how to reason about FIRST, NEXT, BEST, MOST, or SHOULD questions in predictive, agile, or hybrid contexts.
+description: Explain individual PMP practice questions and disputed answer keys in brief, clear Vietnamese. Use when a learner provides a PMP-style multiple-choice question and asks why an option is correct or wrong, whether another option is better, whether the official key is defensible, or how to reason about FIRST, NEXT, BEST, MOST, or SHOULD questions in predictive, agile, or hybrid contexts. For explicitly requested interactive or ask-first coaching, use pmp-reasoning-coach instead.
 ---
 
 # Explain PMP Questions
