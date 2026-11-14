@@ -14,6 +14,8 @@ Kho kỹ năng AI dành cho người học PMP, bắt đầu với **`explain-pm
 |---|---|---|
 | [explain-pmp-questions](skills/explain-pmp-questions/SKILL.md) | Bạn phân vân giữa các lựa chọn, chưa hiểu đáp án của bộ đề, hoặc muốn review câu làm sai | Giải thích tiếng Việt ngắn gọn; so sánh phương án; nêu `Principle:` khi có nguyên tắc phù hợp |
 
+| [pmp-reasoning-coach](skills/pmp-reasoning-coach/SKILL.md) | Muốn được hỏi trước, tự nêu cách hiểu và lý do chọn | Coach phản hồi vào logic đã nêu, so sánh phương án và chốt takeaway |
+
 Skill hỗ trợ câu hỏi predictive, agile và hybrid. Đáp án được cung cấp vẫn cần được kiểm tra bằng dữ kiện của đề.
 
 ## Sử dụng trong ChatGPT
@@ -36,9 +38,9 @@ Làm theo workflow explain-pmp-questions để review câu hỏi PMP dưới đ�
 
 Đây là cách dùng thủ công trong cuộc trò chuyện, **chưa phải cài skill vào tài khoản**. Khi mở cuộc trò chuyện khác, cần cung cấp lại các file nếu ChatGPT chưa có quyền truy cập chúng. Không chỉ gửi riêng SKILL.md vì workflow cần cả hai tài liệu tham khảo.
 
-### Plugin PMP Coach by Anh Vu (0.1.2)
+### Plugin PMP Coach by Anh Vu (0.2.0)
 
-Repo đã có manifest `plugin.json` và một skill cùng hai tài liệu tham khảo. Đây là gói **skills-only**, không cần MCP server hoặc API key riêng.
+Repo đã có manifest `plugin.json` và hai skill dùng chung hai tài liệu tham khảo. Đây là gói **skills-only**, không cần MCP server hoặc API key riêng.
 
 **Trạng thái:** đang chuẩn bị listing công khai; ảnh cài đặt của người duy trì cho thấy PMP Coach đã cài trên desktop, nhưng chưa kiểm chứng cài mới trên tài khoản học viên. Chưa có link cài công khai hoặc xác nhận xuất bản từ portal OpenAI. ZIP không tự cài plugin vào tài khoản.
 
@@ -50,7 +52,7 @@ Từ thư mục repo, chạy với Python 3.10 trở lên:
 python scripts/package_plugin.py
 ```
 
-Kết quả: `dist/pmp-coach-0.1.2.zip`. Script kiểm tra cấu trúc, tham chiếu và nội dung ZIP; chỉ đóng gói manifest, LICENSE, icon và bốn file của skill. Không đưa evals hoặc dữ liệu học viên vào gói. Đây là kiểm tra cục bộ, không thay thế validation của OpenAI.
+Kết quả: `dist/pmp-coach-0.2.0.zip`. Script kiểm tra cấu trúc, tham chiếu và nội dung ZIP; chỉ đóng gói manifest, LICENSE, icon và sáu file của hai skill. Không đưa evals hoặc dữ liệu học viên vào gói. Đây là kiểm tra cục bộ, không thay thế validation của OpenAI.
 
 #### Thử trên ChatGPT desktop
 
@@ -120,6 +122,14 @@ Có thể đính kèm ảnh màn hình hoặc cung cấp thông tin:
 Bạn sẽ thường nhận câu trả lời khoảng 80–180 từ: kết luận trước, 1–2 dữ kiện quyết định, so sánh với lựa chọn cạnh tranh và một nguyên tắc hỗ trợ việc suy luận. Nếu đề mơ hồ, skill được hướng dẫn nói rõ điều đó. Không phải câu hỏi nào cũng có nguyên tắc để takeaway.
 
 Sau khi đọc, tự diễn đạt lại nguyên tắc và thử áp dụng vào câu tiếp theo. Mục tiêu là hiểu cách suy luận, thay vì chỉ nhớ keywords đáp án.
+
+## Luyện tư duy với PMP Reasoning Coach
+
+Chọn PMP Coach và gửi: “Dùng PMP Reasoning Coach cho câu này. Hỏi tôi trước, chưa đưa đáp án.” Kèm tình huống và các phương án.
+
+Coach hỏi bạn đang hiểu vấn đề trọng tâm là gì, nghiêng về phương án nào và dựa vào dữ kiện nào. Sau câu trả lời của bạn, coach chỉ ra phần hợp lý, chỗ cần điều chỉnh, so sánh lựa chọn và chốt một takeaway cụ thể. Nếu bạn đã nêu đủ lập luận, coach phản hồi ngay. Bạn có thể yêu cầu xem giải thích trực tiếp bất cứ lúc nào.
+
+Skill này dùng chung references với explain-pmp-questions; cài cả plugin để giữ đủ tài liệu. Không cần dữ liệu hiệu chỉnh riêng của người duy trì.
 
 ## Phạm vi và tình trạng hiện tại
 

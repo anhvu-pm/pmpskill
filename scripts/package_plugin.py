@@ -15,6 +15,8 @@ FILES = (
     "skills/explain-pmp-questions/agents/openai.yaml",
     "skills/explain-pmp-questions/references/pmp-exam-content-outline.md",
     "skills/explain-pmp-questions/references/pmp-principles.md",
+    "skills/pmp-reasoning-coach/SKILL.md",
+    "skills/pmp-reasoning-coach/agents/openai.yaml",
 )
 
 
@@ -40,19 +42,26 @@ def build():
         if not name.endswith(".png") and not data.decode("utf-8").strip():
             raise ValueError(f"Empty UTF-8 file: {name}")
         payload[name] = data
-    skill_name = "skills/explain-pmp-questions/SKILL.md"
-    skill = payload[skill_name].decode("utf-8")
-    frontmatter = re.match(r"\A---\r?\n(.*?)\r?\n---\r?\n", skill, re.S)
-    if not frontmatter:
-        raise ValueError("Missing skill frontmatter")
-    for field in ("name", "description"):
-        if not re.search(rf"^{field}:\s*\S.+$", frontmatter[1], re.M):
-            raise ValueError(f"Missing skill {field}")
-    if not re.search(r"^name: explain-pmp-questions$", frontmatter[1], re.M):
-        raise ValueError("Skill name and directory differ")
-    for target in re.findall(r"\]\((references/[^)#]+)(?:#[^)]*)?\)", skill):
-        if f"skills/explain-pmp-questions/{target}" not in payload:
-            raise ValueError(f"Unbundled reference: {target}")
+    skill_paths = [name for name in FILES if name.endswith("/SKILL.md")]
+    for skill_path in skill_paths:
+        skill = payload[skill_path].decode("utf-8")
+        frontmatter = re.match(r"\A---\r?\n(.*?)\r?\n---\r?\n", skill, re.S)
+        if not frontmatter:
+            raise ValueError(f"Missing skill frontmatter: {skill_path}")
+        for field in ("name", "description"):
+            if not re.search(rf"^{field}:\s*\S.+$", frontmatter[1], re.M):
+                raise ValueError(f"Missing skill {field}: {skill_path}")
+        expected_name = Path(skill_path).parent.name
+        if not re.search(rf"^name: {re.escape(expected_name)}$", frontmatter[1], re.M):
+            raise ValueError(f"Skill name and directory differ: {skill_path}")
+        for target in re.findall(r"\]\(([^)#]+)(?:#[^)]*)?\)", skill):
+            if re.match(r"^[a-zA-Z][a-zA-Z0-9+.-]*:", target):
+                continue
+            resolved = (ROOT / Path(skill_path).parent / target).resolve()
+            if not resolved.is_relative_to(ROOT):
+                raise ValueError(f"Reference escapes plugin: {target}")
+            if resolved.relative_to(ROOT).as_posix() not in payload:
+                raise ValueError(f"Unbundled reference: {skill_path}: {target}")
     output = ROOT / "dist" / f"pmp-coach-{version}.zip"
     output.parent.mkdir(parents=True, exist_ok=True)
     with zipfile.ZipFile(output, "w") as archive:
