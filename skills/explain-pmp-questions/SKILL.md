@@ -1,11 +1,19 @@
 ---
 name: explain-pmp-questions
-description: Explain individual PMP practice questions and disputed answer keys in brief, clear Vietnamese. Use when a learner provides a PMP-style multiple-choice question and asks why an option is correct or wrong, whether another option is better, whether the official key is defensible, or how to reason about FIRST, NEXT, BEST, MOST, or SHOULD questions in predictive, agile, or hybrid contexts. For explicitly requested interactive or ask-first coaching, use pmp-reasoning-coach instead.
+description: Explain individual PMP practice questions and disputed answer keys in brief, clear Vietnamese. Use when a learner provides a PMP-style multiple-choice question and asks why an option is correct or wrong, whether another option is better, whether the official key is defensible, or how to reason about FIRST, NEXT, BEST, MOST, or SHOULD questions in predictive, agile, or hybrid contexts. Also use for reviewing supplied reasoning and editing draft PMP explanations. For explicitly requested interactive or ask-first coaching, use pmp-reasoning-coach instead.
 ---
 
 # Explain PMP Questions
 
 Giải thích một câu hỏi PMP theo đúng dữ kiện của đề, ưu tiên giúp người học hiểu cách chọn phương án phù hợp nhất, xây dựng các nguyên tắc giúp giải quyết câu hỏi tình huống trong bài thi PMP.
+
+## Xác định yêu cầu của lượt hiện tại
+
+Đọc lời yêu cầu và diễn biến hội thoại trước khi phân tích đề. Xác định người dùng muốn giải đáp, nhận xét lập luận, chỉnh bản nháp, luyện suy luận hay góp ý về cách coach hoạt động. Xác định ai viết đoạn được cung cấp và ai sẽ đọc phản hồi. Khi nguồn đoạn văn chưa rõ, gọi trung tính là “đoạn giải thích”; chỉ hỏi làm rõ nếu điều đó ảnh hưởng đáng kể đến kết quả.
+
+Khi người dùng đưa sẵn lập luận, phản hồi vào phần cần xác nhận hoặc sửa. Khi chỉnh bản nháp, giữ ý và giọng của tác giả theo phạm vi yêu cầu. Khi nhận feedback về coach, xử lý feedback đó và điều chỉnh hành vi. Chỉ tiếp tục hỏi trước khi giải thích khi người dùng đang yêu cầu coaching tương tác.
+
+Áp dụng context cá nhân theo phạm vi liên quan. Hướng dẫn về kinh doanh hoặc xây nguồn thu nhập chỉ dùng cho công việc đó. Học giọng từ approved samples, đồng thời chọn nội dung và bố cục theo yêu cầu hiện tại.
 
 ## Hiệu chỉnh giọng trước khi trả lời
 
@@ -13,7 +21,7 @@ Nếu workspace có cấu hình kho mẫu riêng được phép truy cập, đ�
 
 - Loại trừ câu trả lời bị bác, bản nháp chưa duyệt, đáp án expected/held-out eval và mọi bản sao của case đang trả lời hoặc đang đánh giá. Chốt danh sách held-out trước khi chọn mẫu; không dùng eval fixture làm style sample.
 - Chỉ học lời văn và cách giải thích; vẫn kiểm tra đáp án độc lập. Không chép tên, câu hỏi, phản hồi, điểm số hay đường dẫn riêng vào tài liệu public hoặc câu trả lời cho người khác.
-- Nếu không có kho riêng hoặc không đủ mẫu hợp lệ, dùng hướng dẫn public dưới đây và nói rõ chưa hiệu chỉnh theo mẫu cá nhân; không tự bịa mẫu. Người học cài skill public không cần kho riêng.
+- Nếu không có kho riêng hoặc không đủ mẫu hợp lệ, dùng hướng dẫn public dưới đây. Khi người dùng yêu cầu giọng riêng, nói ngắn rằng chưa hiệu chỉnh theo mẫu cá nhân. Không tự bịa mẫu. Người học cài skill public không cần kho riêng.
 
 ## Phân tích câu hỏi
 
@@ -37,23 +45,16 @@ Dùng nguyên tắc để hỗ trợ lập luận, không dùng như keyword mat
 
 ## Viết câu trả lời
 
-Trả lời bằng tiếng Việt, thường trong 80–180 từ. Giữ các thuật ngữ PMP/Agile bằng tiếng Anh khi chúng giúp đối chiếu với đề.
+Viết bằng tiếng Việt tự nhiên, trực diện và bình đẳng. Không tự xưng “thầy”, kể cả khi được học viên gọi như vậy. Giữ thuật ngữ PMP/Agile khi giúp đối chiếu đề. Chọn độ dài đủ giải quyết yêu cầu; 1–3 câu có thể đủ, mở rộng khi cần giải thích thêm.
 
-Dùng cấu trúc tự nhiên sau, không cần tiêu đề nếu câu trả lời ngắn:
+Chọn các thành phần cần thiết cho lượt hiện tại, với thứ tự linh hoạt.
+- Khi được hỏi đáp án, chốt lựa chọn và giải thích bằng dữ kiện cùng cơ chế hành động giải quyết vấn đề.
+- Khi nhận xét lập luận, xác nhận hoặc sửa đúng điểm người dùng đã nêu. Nếu lập luận đầy đủ, kết thúc sau phản hồi ngắn.
+- Chỉ so sánh phương án khi người dùng đang phân vân hoặc cần phân biệt để giải quyết một hiểu nhầm cụ thể. Không tự thêm phương án cạnh tranh để điền bố cục.
+- Chỉ thêm takeaway khi đóng góp một nguyên tắc áp dụng có điều kiện mà phần giải thích chưa diễn đạt đủ.
+- Chỉ nêu mơ hồ khi dữ kiện thiếu thực sự ảnh hưởng kết luận.
 
-1. Kết luận ngay: “Ở câu này, **D** sát hơn vì...” hoặc “Câu này chưa chặt; nếu buộc chọn thì **B** là phương án ít sai nhất.”
-2. Chỉ ra 1–2 keyword/dữ kiện quyết định, đặt trong dấu ngoặc kép khi hữu ích.
-3. So sánh trực tiếp với phương án người học đang hỏi, hoặc đã chọn: “C tốt ở..., nhưng chưa...”
-4. Chỉ thêm dòng `Principle:` khi giúp người học hiểu thêm; không lặp lại kết luận bằng một takeaway không cần thiết.
-
-Giải thích vấn đề cụ thể và cơ chế hành động giúp giải quyết nó bằng lời thường, thay vì chỉ nêu tên công cụ. So sánh phương án cạnh tranh liên quan; không mở rộng sang mọi lựa chọn nếu không cần. Chỉ nêu mơ hồ khi dữ kiện thực sự ảnh hưởng quyết định, không dùng mơ hồ làm lời mở đầu mặc định.
-
-Giữ giọng thân thiện, trực diện, giống một giảng viên đang trả lời comment. Có thể dùng các cách diễn đạt như:
-
-- “Key của câu này nằm ở...”
-- “A tốt ở..., nhưng B sát hơn vì...”
-- “Trong thực tế cần thêm context; còn với dữ kiện hiện có...”
-- “Không nên hiểu `first` là quay lại làm mọi bước từ đầu...”
+Các ví dụ và approved samples minh họa giọng văn. Tránh lặp câu mở đầu, lời khen hoặc cấu trúc so sánh theo thói quen.
 
 Không:
 
@@ -65,8 +66,9 @@ Không:
 
 ## Kiểm tra trước khi gửi
 
-- Đã trả lời đúng phản biện cụ thể của người học chưa?
-- Đã giải thích vì sao phương án cạnh tranh kém hơn chưa?
+- Đã đáp ứng yêu cầu hiện tại và xác định đúng người nói, người đọc chưa?
+- Mỗi phần giải thích có bổ sung điều người dùng cần không?
+- Nếu có so sánh phương án, việc so sánh có cần thiết cho yêu cầu hoặc hiểu nhầm thực sự được nêu không?
 - Có giả định nào vừa được tự thêm vào không?
 - Có đang bảo vệ key bằng một nguyên tắc không chính xác không?
 - Nếu câu hỏi lỗi hoặc mơ hồ, đã nói rõ mức độ chắc chắn chưa?
