@@ -12,9 +12,9 @@ Kho kỹ năng AI dành cho người học PMP, bắt đầu với **`explain-pm
 
 | Skill | Khi nào dùng | Kết quả mong đợi |
 |---|---|---|
-| [explain-pmp-questions](skills/explain-pmp-questions/SKILL.md) | Bạn phân vân giữa các lựa chọn, chưa hiểu đáp án của bộ đề, hoặc muốn review câu làm sai | Giải thích tiếng Việt ngắn gọn; so sánh phương án; nêu `Principle:` khi có nguyên tắc phù hợp |
+| [explain-pmp-questions](skills/explain-pmp-questions/SKILL.md) | Bạn phân vân giữa các lựa chọn, chưa hiểu đáp án của bộ đề, hoặc muốn review câu làm sai | Phản hồi tiếng Việt theo yêu cầu; so sánh và takeaway khi cần |
 
-| [pmp-reasoning-coach](skills/pmp-reasoning-coach/SKILL.md) | Muốn được hỏi trước, tự nêu cách hiểu và lý do chọn | Coach phản hồi vào logic đã nêu, so sánh phương án và chốt takeaway |
+| [pmp-reasoning-coach](skills/pmp-reasoning-coach/SKILL.md) | Muốn được hỏi trước, tự nêu cách hiểu và lý do chọn | Coach phản hồi vào logic đã nêu; so sánh và takeaway khi giúp người học hiểu thêm |
 
 Skill hỗ trợ câu hỏi predictive, agile và hybrid. Đáp án được cung cấp vẫn cần được kiểm tra bằng dữ kiện của đề.
 
@@ -119,7 +119,7 @@ Có thể đính kèm ảnh màn hình hoặc cung cấp thông tin:
 [Lựa chọn của bạn & câu hỏi thêm (nếu có)]
 ```
 
-Bạn sẽ thường nhận câu trả lời khoảng 80–180 từ: kết luận trước, 1–2 dữ kiện quyết định, so sánh với lựa chọn cạnh tranh và một nguyên tắc hỗ trợ việc suy luận. Nếu đề mơ hồ, skill được hướng dẫn nói rõ điều đó. Không phải câu hỏi nào cũng có nguyên tắc để takeaway.
+Phản hồi bám vào yêu cầu hiện tại và lập luận bạn đã cung cấp. Có thể chỉ cần 1–3 câu. So sánh phương án và takeaway được thêm khi giúp giải quyết điều bạn đang hỏi. Khi đề thiếu dữ kiện ảnh hưởng kết luận, coach chỉ rõ điểm đó.
 
 Sau khi đọc, tự diễn đạt lại nguyên tắc và thử áp dụng vào câu tiếp theo. Mục tiêu là hiểu cách suy luận, thay vì chỉ nhớ keywords đáp án.
 
@@ -127,7 +127,7 @@ Sau khi đọc, tự diễn đạt lại nguyên tắc và thử áp dụng vào
 
 Chọn PMP Coach và gửi: “Dùng PMP Reasoning Coach cho câu này. Hỏi tôi trước, chưa đưa đáp án.” Kèm tình huống và các phương án.
 
-Coach hỏi bạn đang hiểu vấn đề trọng tâm là gì, nghiêng về phương án nào và dựa vào dữ kiện nào. Sau câu trả lời của bạn, coach chỉ ra phần hợp lý, chỗ cần điều chỉnh, so sánh lựa chọn và chốt một takeaway cụ thể. Nếu bạn đã nêu đủ lập luận, coach phản hồi ngay. Bạn có thể yêu cầu xem giải thích trực tiếp bất cứ lúc nào.
+Coach hỏi bạn đang hiểu vấn đề trọng tâm là gì, nghiêng về phương án nào và dựa vào dữ kiện nào. Sau câu trả lời của bạn, coach phản hồi vào phần hợp lý hoặc chỗ cần điều chỉnh. So sánh lựa chọn và takeaway được dùng khi cần. Nếu bạn đã nêu đủ lập luận, coach phản hồi ngay. Bạn có thể yêu cầu xem giải thích trực tiếp bất cứ lúc nào.
 
 Skill này dùng chung references với explain-pmp-questions; cài cả plugin để giữ đủ tài liệu. Không cần dữ liệu hiệu chỉnh riêng của người duy trì.
 
